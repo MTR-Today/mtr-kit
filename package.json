@@ -21,7 +21,7 @@
     "postinstall": "husky install",
     "prepare": "husky install",
     "pre-commit": "yarn lint-staged",
-    "pre-push": "tsc && yarn test",
+    "pre-push": "tsc",
     "test": "tsc",
     "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json"
   },
