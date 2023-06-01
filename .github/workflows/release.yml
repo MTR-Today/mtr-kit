@@ -13,24 +13,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        with:
+          version: 8
       - uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
-          cache: 'yarn'
+          node-version-file: '.node-version'
+          cache: 'pnpm'
       - uses: google-github-actions/release-please-action@v3
         id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-type: node
-          package-name: test-release-please
-      - run: yarn --frozen-lockfile
+      - run: pnpm install --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn build
+      - run: pnpm build
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn clean-package-json
+      - run: pnpm clean-package-json
         if: ${{ steps.release.outputs.release_created }}
       - run: 'echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > ~/.npmrc'
         if: ${{ steps.release.outputs.release_created }}
-      - run: npm publish
+      - run: pnpm publish
         if: ${{ steps.release.outputs.release_created }}

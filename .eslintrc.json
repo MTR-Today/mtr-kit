@@ -1,13 +1,11 @@
 {
   "env": {
-    "browser": true,
+    "node": true,
     "es2021": true
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
     "@spotify/eslint-config-base"
   ],
   "parser": "@typescript-eslint/parser",
@@ -50,10 +48,6 @@
 
     // custom rules
     "max-depth": ["error", 3],
-    "max-lines": [
-      "error",
-      { "max": 500, "skipBlankLines": true, "skipComments": true }
-    ],
     // should use `String(var)` instead of `'' + var` for type convert
     "no-implicit-coercion": "error",
     "no-shadow-restricted-names": "error",

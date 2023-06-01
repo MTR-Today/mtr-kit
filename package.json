@@ -16,6 +16,9 @@
       "require": "./dist/cjs/index.cjs"
     }
   },
+  "engines": {
+    "node": "^18"
+  },
   "scripts": {
     "build": "rollup -c",
     "postinstall": "husky install",
@@ -34,9 +37,8 @@
     "@typescript-eslint/parser": "5.57.0",
     "clean-publish": "4.1.1",
     "esbuild": "0.17.14",
-    "eslint": "8.37.0",
+    "eslint": "8.41.0",
     "eslint-plugin-fp": "2.3.0",
-    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
     "import-sort-cli": "6.0.0",
@@ -53,5 +55,7 @@
     "rollup-plugin-visualizer": "5.9.0",
     "typescript": "5.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "wretch": "2.5.2"
+  }
 }
