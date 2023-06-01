@@ -1,0 +1,57 @@
+{
+  "name": "@mtr-today/mtr-sdk",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "module": "dist/esm/index.mjs",
+  "types": "dist/esm/index.d.ts",
+  "main": "dist/cjs/index.cjs",
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "postinstall": "husky install",
+    "prepare": "husky install",
+    "pre-commit": "yarn lint-staged",
+    "pre-push": "tsc && yarn test",
+    "test": "tsc",
+    "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.5.1",
+    "@commitlint/config-conventional": "17.4.4",
+    "@gitbeaker/cli": "35.8.1",
+    "@spotify/eslint-config": "14.1.6",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
+    "clean-publish": "4.1.1",
+    "esbuild": "0.17.14",
+    "eslint": "8.37.0",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "import-sort-cli": "6.0.0",
+    "import-sort-parser-babylon": "6.0.0",
+    "import-sort-parser-typescript": "6.0.0",
+    "import-sort-style-module": "6.0.0",
+    "lint-staged": "13.1.2",
+    "prettier": "2.8.7",
+    "rollup": "3.20.2",
+    "rollup-plugin-delete": "2.0.0",
+    "rollup-plugin-dts": "5.3.0",
+    "rollup-plugin-esbuild": "5.0.0",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-visualizer": "5.9.0",
+    "typescript": "5.0.2"
+  },
+  "dependencies": {}
+}
