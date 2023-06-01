@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/mtr-today/mtr-kit/compare/v1.2.2...v1.3.0) (2023-06-01)
+
+
+### Features
+
+* constants ([0c8a7d7](https://github.com/mtr-today/mtr-kit/commit/0c8a7d71a7b943226f467774c880b3c3829f6698))
+* mtr api ([3c00183](https://github.com/mtr-today/mtr-kit/commit/3c00183289eaeddbeb5c9e6bca22647229f6f0ec))
+
 ## [1.2.2](https://github.com/mtr-today/mtr-kit/compare/v1.2.1...v1.2.2) (2023-06-01)
 
 
