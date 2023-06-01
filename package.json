@@ -16,6 +16,9 @@
       "require": "./dist/cjs/index.cjs"
     }
   },
+  "engines": {
+    "node": "^18"
+  },
   "scripts": {
     "build": "rollup -c",
     "postinstall": "husky install",

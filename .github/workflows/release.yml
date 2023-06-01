@@ -19,7 +19,7 @@ jobs:
           version: 8
       - uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version-file: '.node-version'
           cache: 'pnpm'
       - uses: google-github-actions/release-please-action@v3
         id: release
