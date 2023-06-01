@@ -1,1 +1,1 @@
-export const hello = 'world2'
+export * from './constants'
