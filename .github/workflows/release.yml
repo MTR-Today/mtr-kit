@@ -23,14 +23,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-type: node
-          package-name: test-release-please
-      - run: yarn --frozen-lockfile
+      - run: pnpm --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn build
+      - run: pnpm build
         if: ${{ steps.release.outputs.release_created }}
-      - run: yarn clean-package-json
+      - run: pnpm clean-package-json
         if: ${{ steps.release.outputs.release_created }}
       - run: 'echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > ~/.npmrc'
         if: ${{ steps.release.outputs.release_created }}
-      - run: npm publish
+      - run: pnpm publish
         if: ${{ steps.release.outputs.release_created }}
