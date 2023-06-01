@@ -1,13 +1,11 @@
 {
   "env": {
-    "browser": true,
+    "node": true,
     "es2021": true
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
     "@spotify/eslint-config-base"
   ],
   "parser": "@typescript-eslint/parser",
