@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/mtr-today/mtr-sdk/compare/v1.2.0...v1.2.1) (2023-06-01)
+
+
+### Bug Fixes
+
+* project name ([15cbb65](https://github.com/mtr-today/mtr-sdk/commit/15cbb6546294cd123e0effb86dff0c78a5df7858))
+
 ## [1.2.0](https://github.com/mtr-today/mtr-sdk/compare/v1.1.0...v1.2.0) (2023-06-01)
 
 
