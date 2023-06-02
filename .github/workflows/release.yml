@@ -36,3 +36,8 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm publish
         if: ${{ steps.release.outputs.release_created }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: Merge back
+          branch: develop
