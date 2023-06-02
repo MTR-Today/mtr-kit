@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/mtr-today/mtr-kit/compare/v1.4.0...v1.5.0) (2023-06-02)
+
+
+### Features
+
+* ci no git check ([c8f0479](https://github.com/mtr-today/mtr-kit/commit/c8f0479dadce4776a7c57813aa480e579577f27a))
+
 ## [1.4.0](https://github.com/mtr-today/mtr-kit/compare/v1.3.0...v1.4.0) (2023-06-02)
 
 
