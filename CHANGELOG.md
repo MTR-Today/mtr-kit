@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/mtr-today/mtr-kit/compare/v1.3.0...v1.4.0) (2023-06-02)
+
+
+### Features
+
+* trigger release ([3ae4372](https://github.com/mtr-today/mtr-kit/commit/3ae4372eeb7118069939cff9c8564eae8aff653c))
+
 ## [1.3.0](https://github.com/mtr-today/mtr-kit/compare/v1.2.2...v1.3.0) (2023-06-01)
 
 
