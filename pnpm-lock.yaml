@@ -14,8 +14,8 @@ devDependencies:
     specifier: 17.5.1
     version: 17.5.1
   '@commitlint/config-conventional':
-    specifier: 17.4.4
-    version: 17.4.4
+    specifier: 17.6.5
+    version: 17.6.5
   '@gitbeaker/cli':
     specifier: 35.8.1
     version: 35.8.1
@@ -318,8 +318,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional@17.4.4:
-    resolution: {integrity: sha512-u6ztvxqzi6NuhrcEDR7a+z0yrh11elY66nRrQIpqsqW6sZmpxYkDLtpRH8jRML+mmxYQ8s4qqF06Q/IQx5aJeQ==}
+  /@commitlint/config-conventional@17.6.5:
+    resolution: {integrity: sha512-Xl9H9KLl86NZm5CYNTNF9dcz1xelE/EbvhWIWcYxG/rn3UWYWdWmmnX2q6ZduNdLFSGbOxzUpIx61j5zxbeXxg==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
