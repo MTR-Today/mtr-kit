@@ -31,7 +31,6 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
     "@commitlint/config-conventional": "17.6.5",
-    "@gitbeaker/cli": "38.12.1",
     "@spotify/eslint-config": "15.0.0",
     "@typescript-eslint/eslint-plugin": "5.59.9",
     "@typescript-eslint/parser": "5.59.9",
