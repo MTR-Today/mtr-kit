@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   wretch:
-    specifier: 2.5.2
+    specifier: ^2.5.2
     version: 2.5.2
 
 devDependencies:
