@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/mtr-today/mtr-kit/compare/v1.5.0...v1.6.0) (2023-06-17)
+
+
+### Features
+
+* export api client ([8b949ed](https://github.com/mtr-today/mtr-kit/commit/8b949ed7d659dde309681b9f87811be0e0f87d97))
+
 ## [1.5.0](https://github.com/mtr-today/mtr-kit/compare/v1.4.0...v1.5.0) (2023-06-02)
 
 
