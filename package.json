@@ -26,7 +26,8 @@
     "pre-commit": "yarn lint-staged",
     "pre-push": "tsc",
     "test": "tsc",
-    "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json"
+    "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
+    "lint:js": "eslint ."
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
@@ -38,6 +39,7 @@
     "esbuild": "0.18.4",
     "eslint": "8.43.0",
     "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
     "import-sort-cli": "6.0.0",
