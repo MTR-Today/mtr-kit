@@ -1,7 +1,22 @@
 {
   "name": "mtr-kit",
   "version": "1.6.0",
-  "license": "UNLICENSED",
+  "repository": "https://github.com/mtr-today/mtr-kit.git",
+  "author": "marklai1998 <marklai1998@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^20"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "postinstall": "husky install",
+    "prepare": "husky install",
+    "pre-commit": "pnpm lint-staged",
+    "pre-push": "tsc",
+    "test": "tsc",
+    "clean-package-json": "pnpm clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
+    "lint:js": "eslint src"
+  },
   "files": [
     "dist"
   ],
@@ -15,19 +30,6 @@
       "import": "./dist/esm/index.mjs",
       "require": "./dist/cjs/index.cjs"
     }
-  },
-  "engines": {
-    "node": "^20"
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "postinstall": "husky install",
-    "prepare": "husky install",
-    "pre-commit": "pnpm lint-staged",
-    "pre-push": "tsc",
-    "test": "tsc",
-    "clean-package-json": "pnpm clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
-    "lint:js": "eslint src"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
