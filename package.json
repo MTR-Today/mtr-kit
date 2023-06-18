@@ -23,10 +23,10 @@
     "build": "rollup -c",
     "postinstall": "husky install",
     "prepare": "husky install",
-    "pre-commit": "yarn lint-staged",
+    "pre-commit": "pnpm lint-staged",
     "pre-push": "tsc",
     "test": "tsc",
-    "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
+    "clean-package-json": "pnpm clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
     "lint:js": "eslint src"
   },
   "devDependencies": {
