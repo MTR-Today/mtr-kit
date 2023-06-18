@@ -27,7 +27,7 @@
     "pre-push": "tsc",
     "test": "tsc",
     "clean-package-json": "yarn clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
-    "lint:js": "eslint ."
+    "lint:js": "eslint src"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
