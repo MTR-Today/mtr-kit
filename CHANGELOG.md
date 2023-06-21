@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/mtr-today/mtr-kit/compare/v1.6.1...v1.7.0) (2023-06-21)
+
+
+### Features
+
+* support more node version ([5c2ade7](https://github.com/mtr-today/mtr-kit/commit/5c2ade77aa6ce9a3ea3b9f24072ef3f32807c4fd))
+
 ## [1.6.1](https://github.com/mtr-today/mtr-kit/compare/v1.6.0...v1.6.1) (2023-06-17)
 
 
