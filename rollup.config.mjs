@@ -17,13 +17,8 @@ export default [
     ],
     output: [
       {
-        file: 'dist/esm/index.mjs',
+        file: 'dist/index.mjs',
         format: 'es',
-        sourcemap: true,
-      },
-      {
-        file: 'dist/cjs/index.cjs',
-        format: 'cjs',
         sourcemap: true,
       },
     ],
@@ -33,12 +28,8 @@ export default [
     plugins: [dts()],
     output: [
       {
-        file: 'dist/esm/index.d.ts',
+        file: 'dist/index.d.ts',
         format: 'es',
-      },
-      {
-        file: 'dist/cjs/index.d.ts',
-        format: 'cjs',
       },
     ],
   },

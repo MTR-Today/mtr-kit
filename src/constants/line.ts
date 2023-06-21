@@ -1,4 +1,4 @@
-import * as stops from './stop'
+import * as stops from './stop.js'
 
 export enum LineCode {
   TML = 'TML',
