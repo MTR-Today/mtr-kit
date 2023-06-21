@@ -1,6 +1,6 @@
-import { LineCode } from '../constants/line'
-import { StopCode } from '../constants/stop'
-import { apiClient } from './apiClient'
+import { LineCode } from '../constants/line.js'
+import { StopCode } from '../constants/stop.js'
+import { apiClient } from './apiClient.js'
 
 export type ScheduleItem = {
   seq: string
