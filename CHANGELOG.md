@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/mtr-today/mtr-kit/compare/v1.6.0...v1.6.1) (2023-06-17)
+
+
+### Bug Fixes
+
+* unpin dep ([d55f25e](https://github.com/mtr-today/mtr-kit/commit/d55f25e33753c534a88ce276ca66a0fa71fc4d50))
+
 ## [1.6.0](https://github.com/mtr-today/mtr-kit/compare/v1.5.0...v1.6.0) (2023-06-17)
 
 
