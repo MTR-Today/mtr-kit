@@ -17,7 +17,7 @@ export default [
     ],
     output: [
       {
-        file: 'dist/index.mjs',
+        file: 'dist/index.js',
         format: 'es',
         sourcemap: true,
       },
