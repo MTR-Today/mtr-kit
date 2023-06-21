@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/mtr-today/mtr-kit/compare/v1.7.0...v1.7.1) (2023-06-21)
+
+
+### Bug Fixes
+
+* build js extension ([525dfdc](https://github.com/mtr-today/mtr-kit/commit/525dfdc282ae0413970c1badee6811756d8b06fd))
+
 ## [1.7.0](https://github.com/mtr-today/mtr-kit/compare/v1.6.1...v1.7.0) (2023-06-21)
 
 
