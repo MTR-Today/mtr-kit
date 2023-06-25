@@ -104,6 +104,7 @@ export const TUM = {
   nameEn: 'Tuen Mun',
   nameZh: '屯門',
   color: '#035F94',
+  textColor: '#FFFFFF',
 }
 
 export const SIH = {
@@ -111,6 +112,7 @@ export const SIH = {
   nameEn: 'Siu Hong',
   nameZh: '兆康',
   color: '#79BFB3',
+  textColor: '#000000',
 }
 
 export const TIS = {
@@ -118,6 +120,7 @@ export const TIS = {
   nameEn: 'Tin Shui Wai',
   nameZh: '天水圍',
   color: '#FFCF2A',
+  textColor: '#FFFFFF',
 }
 
 export const LOP = {
@@ -125,6 +128,7 @@ export const LOP = {
   nameEn: 'Long Ping',
   nameZh: '朗屏',
   color: '#F697B4',
+  textColor: '#000000',
 }
 
 export const YUL = {
@@ -132,6 +136,7 @@ export const YUL = {
   nameEn: 'Yuen Long',
   nameZh: '元朗',
   color: '#42D7DC',
+  textColor: '#000000',
 }
 
 export const KSR = {
@@ -139,6 +144,7 @@ export const KSR = {
   nameEn: 'Kam Sheung Road',
   nameZh: '錦上路',
   color: '#BF431A',
+  textColor: '#FFFFFF',
 }
 
 export const TWW = {
@@ -146,6 +152,7 @@ export const TWW = {
   nameEn: 'Tsuen Wan West',
   nameZh: '荃灣西',
   color: '#A81C07',
+  textColor: '#FFFFFF',
 }
 
 export const MEF = {
@@ -153,6 +160,7 @@ export const MEF = {
   nameEn: 'Mei Foo',
   nameZh: '美孚',
   color: '#0088DD',
+  textColor: '#FFFFFF',
 }
 
 export const NAC = {
@@ -160,6 +168,7 @@ export const NAC = {
   nameEn: 'Nam Cheong',
   nameZh: '南昌',
   color: '#FFFF80',
+  textColor: '#000000',
 }
 
 export const AUS = {
@@ -167,6 +176,7 @@ export const AUS = {
   nameEn: 'Austin',
   nameZh: '柯士甸',
   color: '#D05A3A',
+  textColor: '#FFFFFF',
 }
 
 export const ETS = {
@@ -174,6 +184,7 @@ export const ETS = {
   nameEn: 'East Tsim Sha Tsui',
   nameZh: '尖東',
   color: '#ffff00',
+  textColor: '#000000',
 }
 
 export const HUH = {
@@ -181,6 +192,7 @@ export const HUH = {
   nameEn: 'Hung Hom',
   nameZh: '紅磡',
   color: '#FF2492',
+  textColor: '#000000',
 }
 
 export const HOM = {
@@ -188,6 +200,7 @@ export const HOM = {
   nameEn: 'Ho Man Tin',
   nameZh: '何文田',
   color: '#ABBB77',
+  textColor: '#000000',
 }
 
 export const TKW = {
@@ -195,6 +208,7 @@ export const TKW = {
   nameEn: 'To Kwa Wan',
   nameZh: '土瓜灣',
   color: '#95D0D0',
+  textColor: '#000000',
 }
 
 export const SUW = {
@@ -202,6 +216,7 @@ export const SUW = {
   nameEn: 'Sung Wong Toi',
   nameZh: '宋皇臺',
   color: '#E6C35C',
+  textColor: '#000000',
 }
 
 export const KAT = {
@@ -209,6 +224,7 @@ export const KAT = {
   nameEn: 'Kai Tak',
   nameZh: '啟德',
   color: '#EBC411',
+  textColor: '#000000',
 }
 
 export const DIH = {
@@ -216,6 +232,7 @@ export const DIH = {
   nameEn: 'Diamond Hill',
   nameZh: '鑽石山',
   color: '#202020',
+  textColor: '#FFFFFF',
 }
 
 export const HIK = {
@@ -223,6 +240,7 @@ export const HIK = {
   nameEn: 'Hin Keng',
   nameZh: '顯徑',
   color: '#72DC72',
+  textColor: '#182F4F',
 }
 
 export const TAW = {
@@ -230,6 +248,7 @@ export const TAW = {
   nameEn: 'Tai Wai',
   nameZh: '大圍',
   color: '#00008b',
+  textColor: '#FFFFFF',
 }
 
 export const CKT = {
@@ -237,6 +256,7 @@ export const CKT = {
   nameEn: 'Che Kung Temple',
   nameZh: '車公廟',
   color: '#EED9B8',
+  textColor: '#000000',
 }
 
 export const STW = {
@@ -244,6 +264,7 @@ export const STW = {
   nameEn: 'Sha Tin Wai',
   nameZh: '沙田圍',
   color: '#FFBCD9',
+  textColor: '#000000',
 }
 
 export const CIO = {
@@ -251,6 +272,7 @@ export const CIO = {
   nameEn: 'City One',
   nameZh: '第一城',
   color: '#FFCF2E',
+  textColor: '#000000',
 }
 
 export const SHM = {
@@ -258,6 +280,7 @@ export const SHM = {
   nameEn: 'Shek Mun',
   nameZh: '石門',
   color: '#FBEC5D',
+  textColor: '#000000',
 }
 
 export const TSH = {
@@ -265,6 +288,7 @@ export const TSH = {
   nameEn: 'Tai Shui Hang',
   nameZh: '大水坑',
   color: '#9DE4E0',
+  textColor: '#000000',
 }
 
 export const HEO = {
@@ -272,6 +296,7 @@ export const HEO = {
   nameEn: 'Heng On',
   nameZh: '恆安',
   color: '#B4CBE6',
+  textColor: '#000000',
 }
 
 export const MOS = {
@@ -279,6 +304,7 @@ export const MOS = {
   nameEn: 'Ma On Shan',
   nameZh: '馬鞍山',
   color: '#BAAADB',
+  textColor: '#000000',
 }
 
 export const WKS = {
@@ -286,6 +312,7 @@ export const WKS = {
   nameEn: 'Wu Kai Sha',
   nameZh: '烏溪沙',
   color: '#954535',
+  textColor: '#FFFFFF',
 }
 
 export const ADM = {
@@ -293,6 +320,7 @@ export const ADM = {
   nameEn: 'Admiralty',
   nameZh: '金鐘',
   color: '#',
+  textColor: '#FFFFFF',
 }
 
 export const EXC = {
@@ -300,6 +328,7 @@ export const EXC = {
   nameEn: 'Exhibition Centre',
   nameZh: '會展',
   color: '#94A8B0',
+  textColor: '#FFFFFF',
 }
 
 export const MKK = {
@@ -307,6 +336,7 @@ export const MKK = {
   nameEn: 'Mong Kok East',
   nameZh: '旺角東',
   color: '#006400',
+  textColor: '#FFFFFF',
 }
 
 export const KOT = {
@@ -314,6 +344,7 @@ export const KOT = {
   nameEn: 'Kowloon Tong',
   nameZh: '九龍塘',
   color: '#007FFF',
+  textColor: '#FFFFFF',
 }
 
 export const SHT = {
@@ -321,6 +352,7 @@ export const SHT = {
   nameEn: 'Sha Tin',
   nameZh: '沙田',
   color: '#BB7796',
+  textColor: '#FFFFFF',
 }
 
 export const FOT = {
@@ -328,6 +360,7 @@ export const FOT = {
   nameEn: 'Fo Tan',
   nameZh: '火炭',
   color: '#FFA500',
+  textColor: '#FFFFFF',
 }
 
 export const RAC = {
@@ -335,6 +368,7 @@ export const RAC = {
   nameEn: 'Racecourse',
   nameZh: '馬場',
   color: '#15AE69',
+  textColor: '#FFFFFF',
 }
 
 export const UNI = {
@@ -342,6 +376,7 @@ export const UNI = {
   nameEn: 'University',
   nameZh: '大學',
   color: '#A2D7DD',
+  textColor: '#FFFFFF',
 }
 
 export const TAP = {
@@ -349,6 +384,7 @@ export const TAP = {
   nameEn: 'Tai Po Market',
   nameZh: '大埔墟',
   color: '#976E9A',
+  textColor: '#FFFFFF',
 }
 
 export const TWO = {
@@ -356,6 +392,7 @@ export const TWO = {
   nameEn: 'Tai Wo',
   nameZh: '太和',
   color: '#C89F05',
+  textColor: '#FFFFFF',
 }
 
 export const FAN = {
@@ -363,6 +400,7 @@ export const FAN = {
   nameEn: 'Fanling',
   nameZh: '粉嶺',
   color: '#9ACD32',
+  textColor: '#FFFFFF',
 }
 
 export const SHS = {
@@ -370,6 +408,7 @@ export const SHS = {
   nameEn: 'Sheung Shui',
   nameZh: '上水',
   color: '#F6A600',
+  textColor: '#FFFFFF',
 }
 
 export const LOW = {
@@ -377,6 +416,7 @@ export const LOW = {
   nameEn: 'Lo Wu',
   nameZh: '羅湖',
   color: '#8DC476',
+  textColor: '#FFFFFF',
 }
 
 export const LMC = {
@@ -384,6 +424,7 @@ export const LMC = {
   nameEn: 'Lok Ma Chau',
   nameZh: '落馬洲',
   color: '#009E9B',
+  textColor: '#FFFFFF',
 }
 
 export const TSW = {
@@ -391,6 +432,7 @@ export const TSW = {
   nameZh: '荃灣',
   nameEn: 'Tsuen Wan',
   color: '#BB2200',
+  textColor: '#FFFFFF',
 }
 
 export const TWH = {
@@ -398,6 +440,7 @@ export const TWH = {
   nameZh: '大窩口',
   nameEn: 'Tai Wo Hau',
   color: '#A2B741',
+  textColor: '#FFFFFF',
 }
 
 export const KWH = {
@@ -405,6 +448,7 @@ export const KWH = {
   nameZh: '葵興',
   nameEn: 'Kwai Hing',
   color: '#F1CC00',
+  textColor: '#000000',
 }
 
 export const KWF = {
@@ -412,6 +456,7 @@ export const KWF = {
   nameZh: '葵芳',
   nameEn: 'Kwai Fong',
   color: '#233D3A',
+  textColor: '#FFFFFF',
 }
 
 export const LAK = {
@@ -419,6 +464,7 @@ export const LAK = {
   nameZh: '茘景',
   nameEn: 'Lai King',
   color: '#BB2200',
+  textColor: '#FFFFFF',
 }
 
 export const LCK = {
@@ -426,6 +472,7 @@ export const LCK = {
   nameZh: '茘枝角',
   nameEn: 'Lai Chi Kok',
   color: '#E04300',
+  textColor: '#FFFFFF',
 }
 
 export const CSW = {
@@ -433,6 +480,7 @@ export const CSW = {
   nameZh: '長沙灣',
   nameEn: 'Cheung Sha Wan',
   color: '#B5A265',
+  textColor: '#000000',
 }
 
 export const SSP = {
@@ -440,6 +488,7 @@ export const SSP = {
   nameZh: '深水埗',
   nameEn: 'Sham Shui Po',
   color: '#016258',
+  textColor: '#FFFFFF',
 }
 
 export const PRE = {
@@ -447,6 +496,7 @@ export const PRE = {
   nameZh: '太子',
   nameEn: 'Prince Edward',
   color: '#8674A1',
+  textColor: '#FFFFFF',
 }
 
 export const MOK = {
@@ -454,6 +504,7 @@ export const MOK = {
   nameZh: '旺角',
   nameEn: 'Mong Kok',
   color: '#BE2700',
+  textColor: '#FFFFFF',
 }
 
 export const YMT = {
@@ -461,6 +512,7 @@ export const YMT = {
   nameZh: '油麻地',
   nameEn: 'Yau Ma Tei',
   color: '#CCCCCC',
+  textColor: '#000000',
 }
 
 export const JOR = {
@@ -468,6 +520,7 @@ export const JOR = {
   nameZh: '佐敦',
   nameEn: 'Jordan',
   color: '#69B72B',
+  textColor: '#FFFFFF',
 }
 
 export const TST = {
@@ -475,6 +528,7 @@ export const TST = {
   nameZh: '尖沙咀',
   nameEn: 'Tsim Sha Tsui',
   color: '#FFEF00',
+  textColor: '#000000',
 }
 
 export const CEN = {
@@ -482,6 +536,7 @@ export const CEN = {
   nameZh: '中環',
   nameEn: 'Central',
   color: '#AA0000',
+  textColor: '#FFFFFF',
 }
 
 export const HOK = {
@@ -489,6 +544,7 @@ export const HOK = {
   nameEn: 'Hong Kong',
   nameZh: '香港',
   color: '#FFFAFA',
+  textColor: '#000000',
 }
 
 export const KOW = {
@@ -496,6 +552,7 @@ export const KOW = {
   nameEn: 'Kowloon',
   nameZh: '九龍',
   color: '#ACA28A',
+  textColor: '#000000',
 }
 
 export const OLY = {
@@ -503,6 +560,7 @@ export const OLY = {
   nameEn: 'Olympic',
   nameZh: '奧運',
   color: '#4584C4',
+  textColor: '#000000',
 }
 
 export const TSY = {
@@ -510,6 +568,7 @@ export const TSY = {
   nameEn: 'Tsing Yi',
   nameZh: '青衣',
   color: '#A1C6CA',
+  textColor: '#000000',
 }
 
 export const SUN = {
@@ -517,6 +576,7 @@ export const SUN = {
   nameEn: 'Sunny Bay',
   nameZh: '欣澳',
   color: '#808080',
+  textColor: '#C0C0C0',
 }
 
 export const TUC = {
@@ -524,6 +584,7 @@ export const TUC = {
   nameEn: 'Tung Chung',
   nameZh: '	東涌',
   color: '#6A5ACD',
+  textColor: '#000000',
 }
 
 export const NOP = {
@@ -531,6 +592,7 @@ export const NOP = {
   nameEn: 'North Point',
   nameZh: '北角',
   color: '#E86220',
+  textColor: '#000000',
 }
 
 export const QUB = {
@@ -538,6 +600,7 @@ export const QUB = {
   nameEn: 'Quarry Bay',
   nameZh: '鰂魚涌',
   color: '#00918C',
+  textColor: '#FFFFFF',
 }
 
 export const YAT = {
@@ -545,6 +608,7 @@ export const YAT = {
   nameEn: 'Yau Tong',
   nameZh: '油塘',
   color: '#FFEF00',
+  textColor: '#000000',
 }
 
 export const TIK = {
@@ -552,6 +616,7 @@ export const TIK = {
   nameEn: 'Tiu Keng Leng',
   nameZh: '調景嶺',
   color: '#DCD144',
+  textColor: '#000000',
 }
 
 export const TKO = {
@@ -559,6 +624,7 @@ export const TKO = {
   nameEn: 'Tseung Kwan O',
   nameZh: '將軍澳',
   color: '#E60012',
+  textColor: '#FFFFFF',
 }
 
 export const LHP = {
@@ -566,6 +632,7 @@ export const LHP = {
   nameEn: 'LOHAS Park',
   nameZh: '康城',
   color: '#826F79',
+  textColor: '#FFFFFF',
 }
 
 export const HAH = {
@@ -573,6 +640,7 @@ export const HAH = {
   nameEn: 'Hang Hau',
   nameZh: '坑口',
   color: '#2EA9DF',
+  textColor: '#000000',
 }
 
 export const POA = {
@@ -580,6 +648,7 @@ export const POA = {
   nameEn: 'Po Lam',
   nameZh: '寶琳',
   color: '#F28500',
+  textColor: '#000000',
 }
 
 export const AIR = {
@@ -587,6 +656,7 @@ export const AIR = {
   nameEn: 'Airport',
   nameZh: '機場',
   color: '#808080',
+  textColor: '#000000',
 }
 
 export const AWE = {
@@ -594,6 +664,7 @@ export const AWE = {
   nameEn: 'AsiaWorld Expo',
   nameZh: '博覽館',
   color: '#FFFFFF',
+  textColor: '#000000',
 }
 
 export const LAT = {
@@ -601,6 +672,7 @@ export const LAT = {
   nameZh: '藍田',
   nameEn: 'Lam Tin',
   color: '#0083BE',
+  textColor: '#000000',
 }
 
 export const KWT = {
@@ -608,6 +680,7 @@ export const KWT = {
   nameZh: '觀塘',
   nameEn: 'Kwun Tong',
   color: '#FFFFFF',
+  textColor: '#000000',
 }
 
 export const NTK = {
@@ -615,6 +688,7 @@ export const NTK = {
   nameZh: '牛頭角',
   nameEn: 'Ngau Tau Kok',
   color: '#92B6A3',
+  textColor: '#FFFFFF',
 }
 
 export const KOB = {
@@ -622,6 +696,7 @@ export const KOB = {
   nameZh: '九龍灣',
   nameEn: 'Kowloon Bay',
   color: '#C80815',
+  textColor: '#FFFFFF',
 }
 
 export const CHH = {
@@ -629,6 +704,7 @@ export const CHH = {
   nameZh: '彩虹',
   nameEn: 'Choi Hung',
   color: '#27408B',
+  textColor: '#FFFFFF',
 }
 
 export const WTS = {
@@ -636,6 +712,7 @@ export const WTS = {
   nameZh: '黃大仙',
   nameEn: 'Wong Tai Sin',
   color: '#FFFF00',
+  textColor: '#000000',
 }
 
 export const LOF = {
@@ -643,6 +720,7 @@ export const LOF = {
   nameZh: '樂富',
   nameEn: 'Lok Fu',
   color: '#579E2F',
+  textColor: '#000000',
 }
 
 export const SKM = {
@@ -650,6 +728,7 @@ export const SKM = {
   nameZh: '石硤尾',
   nameEn: 'Shek Kip Mei',
   color: '#669933',
+  textColor: '#FFFFFF',
 }
 
 export const WHA = {
@@ -657,6 +736,7 @@ export const WHA = {
   nameZh: '黃埔',
   nameEn: 'Whampo',
   color: '#AECFF0',
+  textColor: '#000000',
 }
 
 export const DIS = {
@@ -664,6 +744,7 @@ export const DIS = {
   nameZh: '迪士尼',
   nameEn: 'Disneyland Resort',
   color: '#005533',
+  textColor: '#D4AF37',
 }
 
 export const CHW = {
@@ -671,6 +752,7 @@ export const CHW = {
   nameZh: '柴灣',
   nameEn: 'Chai Wan',
   color: '#38510E',
+  textColor: '#FFFFFF',
 }
 
 export const HFC = {
@@ -678,6 +760,7 @@ export const HFC = {
   nameZh: '杏花邨',
   nameEn: 'Heng Fa Chuen',
   color: '#C01204',
+  textColor: '#FFFFFF',
 }
 
 export const SKW = {
@@ -685,6 +768,7 @@ export const SKW = {
   nameZh: '筲箕灣',
   nameEn: 'Shau Kei Wan',
   color: '#191970',
+  textColor: '#FFFFFF',
 }
 
 export const SWH = {
@@ -692,6 +776,7 @@ export const SWH = {
   nameZh: '西灣河',
   nameEn: 'Sai Wan Ho',
   color: '#FFCC00',
+  textColor: '#000000',
 }
 
 export const TAK = {
@@ -699,6 +784,7 @@ export const TAK = {
   nameZh: '太古',
   nameEn: 'Tai Koo',
   color: '#BB2200',
+  textColor: '#FFFFFF',
 }
 
 export const FOH = {
@@ -706,6 +792,7 @@ export const FOH = {
   nameZh: '炮台山',
   nameEn: 'Fortress Hill',
   color: '#4B8842',
+  textColor: '#FFFFFF',
 }
 
 export const TIH = {
@@ -713,6 +800,7 @@ export const TIH = {
   nameZh: '天后',
   nameEn: 'Tin Hau',
   color: '#FF7D00',
+  textColor: '#000000',
 }
 
 export const CAB = {
@@ -720,6 +808,7 @@ export const CAB = {
   nameZh: '銅鑼灣',
   nameEn: 'Causeway Bay',
   color: '#C8A2C8',
+  textColor: '#000000',
 }
 
 export const WAC = {
@@ -727,6 +816,7 @@ export const WAC = {
   nameZh: '灣仔',
   nameEn: 'Wan Chai',
   color: '#E1EB2B',
+  textColor: '#000000',
 }
 
 export const SHW = {
@@ -734,6 +824,7 @@ export const SHW = {
   nameZh: '上環',
   nameEn: 'Sheung Wan',
   color: '#FFD280',
+  textColor: '#6B4513',
 }
 
 export const SYP = {
@@ -741,6 +832,7 @@ export const SYP = {
   nameZh: '西營盤',
   nameEn: 'Sai Ying Pun',
   color: '#8B7BA0',
+  textColor: '#000000',
 }
 
 export const HKU = {
@@ -748,6 +840,7 @@ export const HKU = {
   nameZh: '香港大學',
   nameEn: 'HKU',
   color: '#B8DA89',
+  textColor: '#000000',
 }
 
 export const KET = {
@@ -755,6 +848,7 @@ export const KET = {
   nameZh: '堅尼地城',
   nameEn: 'Kennedy Town',
   color: '#95D0D0',
+  textColor: '#000000',
 }
 
 export const OCP = {
@@ -762,6 +856,7 @@ export const OCP = {
   nameZh: '海洋公園',
   nameEn: 'Ocean Park',
   color: '#00BFFF',
+  textColor: '#FFFFFF',
 }
 
 export const WCH = {
@@ -769,6 +864,7 @@ export const WCH = {
   nameZh: '黃竹坑',
   nameEn: 'Wong Chuk Hang',
   color: '#FFFF00',
+  textColor: '#000000',
 }
 
 export const LET = {
@@ -776,6 +872,7 @@ export const LET = {
   nameZh: '利東',
   nameEn: 'Lei Tung',
   color: '#FF7F00',
+  textColor: '#FFFFFF',
 }
 
 export const SOH = {
@@ -783,6 +880,7 @@ export const SOH = {
   nameZh: '海怡半島',
   nameEn: 'South Horizons',
   color: '#74B11B',
+  textColor: '#FFFFFF',
 }
 
 export const stops = [
