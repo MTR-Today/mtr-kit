@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/MTR-Today/mtr-kit/compare/v1.7.1...v1.8.0) (2023-06-25)
+
+
+### Features
+
+* stop color ([abd7778](https://github.com/MTR-Today/mtr-kit/commit/abd777851d704f0379e1bd7a2cdf70e0dc6c0bd5))
+
 ## [1.7.1](https://github.com/mtr-today/mtr-kit/compare/v1.7.0...v1.7.1) (2023-06-21)
 
 
