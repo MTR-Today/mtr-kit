@@ -319,7 +319,7 @@ export const ADM = {
   code: StopCode.ADM,
   nameEn: 'Admiralty',
   nameZh: '金鐘',
-  color: '#',
+  color: '#3A86D4',
   textColor: '#FFFFFF',
 }
 
