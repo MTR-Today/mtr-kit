@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/MTR-Today/mtr-kit/compare/v1.9.0...v1.9.1) (2023-06-25)
+
+
+### Bug Fixes
+
+* missing admiralty color ([b1ea749](https://github.com/MTR-Today/mtr-kit/commit/b1ea7492f4a915ff9f0c7c6618bc77ea56588984))
+
 ## [1.9.0](https://github.com/MTR-Today/mtr-kit/compare/v1.8.0...v1.9.0) (2023-06-25)
 
 
