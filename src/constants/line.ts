@@ -17,7 +17,7 @@ export const TML = {
   code: LineCode.TML,
   nameEn: 'Tuen Ma Line',
   nameZh: '屯碼綫',
-  color: '#9A3820',
+  color: '#9a3b26',
   stops: [
     stops.TUM,
     stops.SIH,
@@ -53,7 +53,7 @@ export const EAL = {
   code: LineCode.EAL,
   nameEn: 'East Rail Line',
   nameZh: '東鐵線',
-  color: '#61B4E4',
+  color: '#53b7e8',
   stops: [
     stops.ADM,
     stops.EXC,
@@ -103,7 +103,7 @@ export const TCL = {
   code: LineCode.TCL,
   nameEn: 'Tung Chung Line',
   nameZh: '東涌綫',
-  color: '#F38B00',
+  color: '#fe7f1d',
   stops: [
     stops.HOK,
     stops.KOW,
@@ -120,7 +120,7 @@ export const TKL = {
   code: LineCode.TKL,
   nameEn: 'Tseung Kwan O Line',
   nameZh: '將軍澳綫',
-  color: '#A35EB5',
+  color: '#6b208b',
   stops: [
     stops.NOP,
     stops.QUB,
@@ -137,7 +137,7 @@ export const AEL = {
   code: LineCode.AEL,
   nameEn: 'Airport Express',
   nameZh: '機場快綫',
-  color: '#007078',
+  color: '#1c7670',
   stops: [stops.HOK, stops.KOW, stops.TSY, stops.AIR, stops.AWE],
 }
 
@@ -145,7 +145,7 @@ export const KTL = {
   code: LineCode.KTL,
   nameEn: 'Kwun Tong Line',
   nameZh: '觀塘綫',
-  color: '#00AF41',
+  color: '#1a9431',
   stops: [
     stops.TIK,
     stops.YAT,
@@ -171,7 +171,7 @@ export const DRL = {
   code: LineCode.DRL,
   nameEn: 'Disneyland Resort Line',
   nameZh: '迪士尼綫',
-  color: '#E777CB',
+  color: '#f550a6',
   stops: [stops.SUN, stops.DIS],
 }
 
@@ -179,7 +179,7 @@ export const ISL = {
   code: LineCode.ISL,
   nameEn: 'Island Line',
   nameZh: '港島綫',
-  color: '#0071CE',
+  color: '#0860a8',
   stops: [
     stops.CHW,
     stops.HFC,
@@ -205,7 +205,7 @@ export const SIL = {
   code: LineCode.SIL,
   nameEn: 'South Island Line',
   nameZh: '南港島綫',
-  color: '#B6BD00',
+  color: '#b5bd00',
   stops: [stops.ADM, stops.OCP, stops.WCH, stops.LET, stops.SOH],
 }
 
