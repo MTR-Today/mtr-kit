@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/MTR-Today/mtr-kit/compare/v1.9.1...v1.10.0) (2023-06-27)
+
+
+### Features
+
+* stop and line map ([2165243](https://github.com/MTR-Today/mtr-kit/commit/216524305c49cfd20074221892a23343ad5ad94e))
+
 ## [1.9.1](https://github.com/MTR-Today/mtr-kit/compare/v1.9.0...v1.9.1) (2023-06-25)
 
 
