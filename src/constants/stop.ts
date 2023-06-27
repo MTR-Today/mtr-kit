@@ -99,7 +99,15 @@ export enum StopCode {
   SOH = 'SOH', // South Horizons
 }
 
-export const TUM = {
+export type Stop = {
+  code: StopCode
+  nameEn: string
+  nameZh: string
+  color: string
+  textColor: string
+}
+
+export const TUM: Stop = {
   code: StopCode.TUM,
   nameEn: 'Tuen Mun',
   nameZh: '屯門',
@@ -107,7 +115,7 @@ export const TUM = {
   textColor: '#FFFFFF',
 }
 
-export const SIH = {
+export const SIH: Stop = {
   code: StopCode.SIH,
   nameEn: 'Siu Hong',
   nameZh: '兆康',
@@ -115,7 +123,7 @@ export const SIH = {
   textColor: '#000000',
 }
 
-export const TIS = {
+export const TIS: Stop = {
   code: StopCode.TIS,
   nameEn: 'Tin Shui Wai',
   nameZh: '天水圍',
@@ -123,7 +131,7 @@ export const TIS = {
   textColor: '#FFFFFF',
 }
 
-export const LOP = {
+export const LOP: Stop = {
   code: StopCode.LOP,
   nameEn: 'Long Ping',
   nameZh: '朗屏',
@@ -131,7 +139,7 @@ export const LOP = {
   textColor: '#000000',
 }
 
-export const YUL = {
+export const YUL: Stop = {
   code: StopCode.YUL,
   nameEn: 'Yuen Long',
   nameZh: '元朗',
@@ -139,7 +147,7 @@ export const YUL = {
   textColor: '#000000',
 }
 
-export const KSR = {
+export const KSR: Stop = {
   code: StopCode.KSR,
   nameEn: 'Kam Sheung Road',
   nameZh: '錦上路',
@@ -147,7 +155,7 @@ export const KSR = {
   textColor: '#FFFFFF',
 }
 
-export const TWW = {
+export const TWW: Stop = {
   code: StopCode.TWW,
   nameEn: 'Tsuen Wan West',
   nameZh: '荃灣西',
@@ -155,7 +163,7 @@ export const TWW = {
   textColor: '#FFFFFF',
 }
 
-export const MEF = {
+export const MEF: Stop = {
   code: StopCode.MEF,
   nameEn: 'Mei Foo',
   nameZh: '美孚',
@@ -163,7 +171,7 @@ export const MEF = {
   textColor: '#FFFFFF',
 }
 
-export const NAC = {
+export const NAC: Stop = {
   code: StopCode.NAC,
   nameEn: 'Nam Cheong',
   nameZh: '南昌',
@@ -171,7 +179,7 @@ export const NAC = {
   textColor: '#000000',
 }
 
-export const AUS = {
+export const AUS: Stop = {
   code: StopCode.AUS,
   nameEn: 'Austin',
   nameZh: '柯士甸',
@@ -179,7 +187,7 @@ export const AUS = {
   textColor: '#FFFFFF',
 }
 
-export const ETS = {
+export const ETS: Stop = {
   code: StopCode.ETS,
   nameEn: 'East Tsim Sha Tsui',
   nameZh: '尖東',
@@ -187,7 +195,7 @@ export const ETS = {
   textColor: '#000000',
 }
 
-export const HUH = {
+export const HUH: Stop = {
   code: StopCode.HUH,
   nameEn: 'Hung Hom',
   nameZh: '紅磡',
@@ -195,7 +203,7 @@ export const HUH = {
   textColor: '#000000',
 }
 
-export const HOM = {
+export const HOM: Stop = {
   code: StopCode.HOM,
   nameEn: 'Ho Man Tin',
   nameZh: '何文田',
@@ -203,7 +211,7 @@ export const HOM = {
   textColor: '#000000',
 }
 
-export const TKW = {
+export const TKW: Stop = {
   code: StopCode.TKW,
   nameEn: 'To Kwa Wan',
   nameZh: '土瓜灣',
@@ -211,7 +219,7 @@ export const TKW = {
   textColor: '#000000',
 }
 
-export const SUW = {
+export const SUW: Stop = {
   code: StopCode.SUW,
   nameEn: 'Sung Wong Toi',
   nameZh: '宋皇臺',
@@ -219,7 +227,7 @@ export const SUW = {
   textColor: '#000000',
 }
 
-export const KAT = {
+export const KAT: Stop = {
   code: StopCode.KAT,
   nameEn: 'Kai Tak',
   nameZh: '啟德',
@@ -227,7 +235,7 @@ export const KAT = {
   textColor: '#000000',
 }
 
-export const DIH = {
+export const DIH: Stop = {
   code: StopCode.DIH,
   nameEn: 'Diamond Hill',
   nameZh: '鑽石山',
@@ -235,7 +243,7 @@ export const DIH = {
   textColor: '#FFFFFF',
 }
 
-export const HIK = {
+export const HIK: Stop = {
   code: StopCode.HIK,
   nameEn: 'Hin Keng',
   nameZh: '顯徑',
@@ -243,7 +251,7 @@ export const HIK = {
   textColor: '#182F4F',
 }
 
-export const TAW = {
+export const TAW: Stop = {
   code: StopCode.TAW,
   nameEn: 'Tai Wai',
   nameZh: '大圍',
@@ -251,7 +259,7 @@ export const TAW = {
   textColor: '#FFFFFF',
 }
 
-export const CKT = {
+export const CKT: Stop = {
   code: StopCode.CKT,
   nameEn: 'Che Kung Temple',
   nameZh: '車公廟',
@@ -259,7 +267,7 @@ export const CKT = {
   textColor: '#000000',
 }
 
-export const STW = {
+export const STW: Stop = {
   code: StopCode.STW,
   nameEn: 'Sha Tin Wai',
   nameZh: '沙田圍',
@@ -267,7 +275,7 @@ export const STW = {
   textColor: '#000000',
 }
 
-export const CIO = {
+export const CIO: Stop = {
   code: StopCode.CIO,
   nameEn: 'City One',
   nameZh: '第一城',
@@ -275,7 +283,7 @@ export const CIO = {
   textColor: '#000000',
 }
 
-export const SHM = {
+export const SHM: Stop = {
   code: StopCode.SHM,
   nameEn: 'Shek Mun',
   nameZh: '石門',
@@ -283,7 +291,7 @@ export const SHM = {
   textColor: '#000000',
 }
 
-export const TSH = {
+export const TSH: Stop = {
   code: StopCode.TSH,
   nameEn: 'Tai Shui Hang',
   nameZh: '大水坑',
@@ -291,7 +299,7 @@ export const TSH = {
   textColor: '#000000',
 }
 
-export const HEO = {
+export const HEO: Stop = {
   code: StopCode.HEO,
   nameEn: 'Heng On',
   nameZh: '恆安',
@@ -299,7 +307,7 @@ export const HEO = {
   textColor: '#000000',
 }
 
-export const MOS = {
+export const MOS: Stop = {
   code: StopCode.MOS,
   nameEn: 'Ma On Shan',
   nameZh: '馬鞍山',
@@ -307,7 +315,7 @@ export const MOS = {
   textColor: '#000000',
 }
 
-export const WKS = {
+export const WKS: Stop = {
   code: StopCode.WKS,
   nameEn: 'Wu Kai Sha',
   nameZh: '烏溪沙',
@@ -315,7 +323,7 @@ export const WKS = {
   textColor: '#FFFFFF',
 }
 
-export const ADM = {
+export const ADM: Stop = {
   code: StopCode.ADM,
   nameEn: 'Admiralty',
   nameZh: '金鐘',
@@ -323,7 +331,7 @@ export const ADM = {
   textColor: '#FFFFFF',
 }
 
-export const EXC = {
+export const EXC: Stop = {
   code: StopCode.EXC,
   nameEn: 'Exhibition Centre',
   nameZh: '會展',
@@ -331,7 +339,7 @@ export const EXC = {
   textColor: '#FFFFFF',
 }
 
-export const MKK = {
+export const MKK: Stop = {
   code: StopCode.MKK,
   nameEn: 'Mong Kok East',
   nameZh: '旺角東',
@@ -339,7 +347,7 @@ export const MKK = {
   textColor: '#FFFFFF',
 }
 
-export const KOT = {
+export const KOT: Stop = {
   code: StopCode.KOT,
   nameEn: 'Kowloon Tong',
   nameZh: '九龍塘',
@@ -347,7 +355,7 @@ export const KOT = {
   textColor: '#FFFFFF',
 }
 
-export const SHT = {
+export const SHT: Stop = {
   code: StopCode.SHT,
   nameEn: 'Sha Tin',
   nameZh: '沙田',
@@ -355,7 +363,7 @@ export const SHT = {
   textColor: '#FFFFFF',
 }
 
-export const FOT = {
+export const FOT: Stop = {
   code: StopCode.FOT,
   nameEn: 'Fo Tan',
   nameZh: '火炭',
@@ -363,7 +371,7 @@ export const FOT = {
   textColor: '#FFFFFF',
 }
 
-export const RAC = {
+export const RAC: Stop = {
   code: StopCode.RAC,
   nameEn: 'Racecourse',
   nameZh: '馬場',
@@ -371,7 +379,7 @@ export const RAC = {
   textColor: '#FFFFFF',
 }
 
-export const UNI = {
+export const UNI: Stop = {
   code: StopCode.UNI,
   nameEn: 'University',
   nameZh: '大學',
@@ -379,7 +387,7 @@ export const UNI = {
   textColor: '#FFFFFF',
 }
 
-export const TAP = {
+export const TAP: Stop = {
   code: StopCode.TAP,
   nameEn: 'Tai Po Market',
   nameZh: '大埔墟',
@@ -387,7 +395,7 @@ export const TAP = {
   textColor: '#FFFFFF',
 }
 
-export const TWO = {
+export const TWO: Stop = {
   code: StopCode.TWO,
   nameEn: 'Tai Wo',
   nameZh: '太和',
@@ -395,7 +403,7 @@ export const TWO = {
   textColor: '#FFFFFF',
 }
 
-export const FAN = {
+export const FAN: Stop = {
   code: StopCode.FAN,
   nameEn: 'Fanling',
   nameZh: '粉嶺',
@@ -403,7 +411,7 @@ export const FAN = {
   textColor: '#FFFFFF',
 }
 
-export const SHS = {
+export const SHS: Stop = {
   code: StopCode.SHS,
   nameEn: 'Sheung Shui',
   nameZh: '上水',
@@ -411,7 +419,7 @@ export const SHS = {
   textColor: '#FFFFFF',
 }
 
-export const LOW = {
+export const LOW: Stop = {
   code: StopCode.LOW,
   nameEn: 'Lo Wu',
   nameZh: '羅湖',
@@ -419,7 +427,7 @@ export const LOW = {
   textColor: '#FFFFFF',
 }
 
-export const LMC = {
+export const LMC: Stop = {
   code: StopCode.LMC,
   nameEn: 'Lok Ma Chau',
   nameZh: '落馬洲',
@@ -427,7 +435,7 @@ export const LMC = {
   textColor: '#FFFFFF',
 }
 
-export const TSW = {
+export const TSW: Stop = {
   code: StopCode.TSW,
   nameZh: '荃灣',
   nameEn: 'Tsuen Wan',
@@ -435,7 +443,7 @@ export const TSW = {
   textColor: '#FFFFFF',
 }
 
-export const TWH = {
+export const TWH: Stop = {
   code: StopCode.TWH,
   nameZh: '大窩口',
   nameEn: 'Tai Wo Hau',
@@ -443,7 +451,7 @@ export const TWH = {
   textColor: '#FFFFFF',
 }
 
-export const KWH = {
+export const KWH: Stop = {
   code: StopCode.KWH,
   nameZh: '葵興',
   nameEn: 'Kwai Hing',
@@ -451,7 +459,7 @@ export const KWH = {
   textColor: '#000000',
 }
 
-export const KWF = {
+export const KWF: Stop = {
   code: StopCode.KWF,
   nameZh: '葵芳',
   nameEn: 'Kwai Fong',
@@ -459,7 +467,7 @@ export const KWF = {
   textColor: '#FFFFFF',
 }
 
-export const LAK = {
+export const LAK: Stop = {
   code: StopCode.LAK,
   nameZh: '茘景',
   nameEn: 'Lai King',
@@ -467,7 +475,7 @@ export const LAK = {
   textColor: '#FFFFFF',
 }
 
-export const LCK = {
+export const LCK: Stop = {
   code: StopCode.LCK,
   nameZh: '茘枝角',
   nameEn: 'Lai Chi Kok',
@@ -475,7 +483,7 @@ export const LCK = {
   textColor: '#FFFFFF',
 }
 
-export const CSW = {
+export const CSW: Stop = {
   code: StopCode.CSW,
   nameZh: '長沙灣',
   nameEn: 'Cheung Sha Wan',
@@ -483,7 +491,7 @@ export const CSW = {
   textColor: '#000000',
 }
 
-export const SSP = {
+export const SSP: Stop = {
   code: StopCode.SSP,
   nameZh: '深水埗',
   nameEn: 'Sham Shui Po',
@@ -491,7 +499,7 @@ export const SSP = {
   textColor: '#FFFFFF',
 }
 
-export const PRE = {
+export const PRE: Stop = {
   code: StopCode.PRE,
   nameZh: '太子',
   nameEn: 'Prince Edward',
@@ -499,7 +507,7 @@ export const PRE = {
   textColor: '#FFFFFF',
 }
 
-export const MOK = {
+export const MOK: Stop = {
   code: StopCode.MOK,
   nameZh: '旺角',
   nameEn: 'Mong Kok',
@@ -507,7 +515,7 @@ export const MOK = {
   textColor: '#FFFFFF',
 }
 
-export const YMT = {
+export const YMT: Stop = {
   code: StopCode.YMT,
   nameZh: '油麻地',
   nameEn: 'Yau Ma Tei',
@@ -515,7 +523,7 @@ export const YMT = {
   textColor: '#000000',
 }
 
-export const JOR = {
+export const JOR: Stop = {
   code: StopCode.JOR,
   nameZh: '佐敦',
   nameEn: 'Jordan',
@@ -523,7 +531,7 @@ export const JOR = {
   textColor: '#FFFFFF',
 }
 
-export const TST = {
+export const TST: Stop = {
   code: StopCode.TST,
   nameZh: '尖沙咀',
   nameEn: 'Tsim Sha Tsui',
@@ -531,7 +539,7 @@ export const TST = {
   textColor: '#000000',
 }
 
-export const CEN = {
+export const CEN: Stop = {
   code: StopCode.CEN,
   nameZh: '中環',
   nameEn: 'Central',
@@ -539,7 +547,7 @@ export const CEN = {
   textColor: '#FFFFFF',
 }
 
-export const HOK = {
+export const HOK: Stop = {
   code: StopCode.HOK,
   nameEn: 'Hong Kong',
   nameZh: '香港',
@@ -547,7 +555,7 @@ export const HOK = {
   textColor: '#000000',
 }
 
-export const KOW = {
+export const KOW: Stop = {
   code: StopCode.KOW,
   nameEn: 'Kowloon',
   nameZh: '九龍',
@@ -555,7 +563,7 @@ export const KOW = {
   textColor: '#000000',
 }
 
-export const OLY = {
+export const OLY: Stop = {
   code: StopCode.OLY,
   nameEn: 'Olympic',
   nameZh: '奧運',
@@ -563,7 +571,7 @@ export const OLY = {
   textColor: '#000000',
 }
 
-export const TSY = {
+export const TSY: Stop = {
   code: StopCode.TSY,
   nameEn: 'Tsing Yi',
   nameZh: '青衣',
@@ -571,7 +579,7 @@ export const TSY = {
   textColor: '#000000',
 }
 
-export const SUN = {
+export const SUN: Stop = {
   code: StopCode.SUN,
   nameEn: 'Sunny Bay',
   nameZh: '欣澳',
@@ -579,7 +587,7 @@ export const SUN = {
   textColor: '#C0C0C0',
 }
 
-export const TUC = {
+export const TUC: Stop = {
   code: StopCode.TUC,
   nameEn: 'Tung Chung',
   nameZh: '	東涌',
@@ -587,7 +595,7 @@ export const TUC = {
   textColor: '#000000',
 }
 
-export const NOP = {
+export const NOP: Stop = {
   code: StopCode.NOP,
   nameEn: 'North Point',
   nameZh: '北角',
@@ -595,7 +603,7 @@ export const NOP = {
   textColor: '#000000',
 }
 
-export const QUB = {
+export const QUB: Stop = {
   code: StopCode.QUB,
   nameEn: 'Quarry Bay',
   nameZh: '鰂魚涌',
@@ -603,7 +611,7 @@ export const QUB = {
   textColor: '#FFFFFF',
 }
 
-export const YAT = {
+export const YAT: Stop = {
   code: StopCode.YAT,
   nameEn: 'Yau Tong',
   nameZh: '油塘',
@@ -611,7 +619,7 @@ export const YAT = {
   textColor: '#000000',
 }
 
-export const TIK = {
+export const TIK: Stop = {
   code: StopCode.TIK,
   nameEn: 'Tiu Keng Leng',
   nameZh: '調景嶺',
@@ -619,7 +627,7 @@ export const TIK = {
   textColor: '#000000',
 }
 
-export const TKO = {
+export const TKO: Stop = {
   code: StopCode.TKO,
   nameEn: 'Tseung Kwan O',
   nameZh: '將軍澳',
@@ -627,7 +635,7 @@ export const TKO = {
   textColor: '#FFFFFF',
 }
 
-export const LHP = {
+export const LHP: Stop = {
   code: StopCode.LHP,
   nameEn: 'LOHAS Park',
   nameZh: '康城',
@@ -635,7 +643,7 @@ export const LHP = {
   textColor: '#FFFFFF',
 }
 
-export const HAH = {
+export const HAH: Stop = {
   code: StopCode.HAH,
   nameEn: 'Hang Hau',
   nameZh: '坑口',
@@ -643,7 +651,7 @@ export const HAH = {
   textColor: '#000000',
 }
 
-export const POA = {
+export const POA: Stop = {
   code: StopCode.POA,
   nameEn: 'Po Lam',
   nameZh: '寶琳',
@@ -651,7 +659,7 @@ export const POA = {
   textColor: '#000000',
 }
 
-export const AIR = {
+export const AIR: Stop = {
   code: StopCode.AIR,
   nameEn: 'Airport',
   nameZh: '機場',
@@ -659,7 +667,7 @@ export const AIR = {
   textColor: '#000000',
 }
 
-export const AWE = {
+export const AWE: Stop = {
   code: StopCode.AWE,
   nameEn: 'AsiaWorld Expo',
   nameZh: '博覽館',
@@ -667,7 +675,7 @@ export const AWE = {
   textColor: '#000000',
 }
 
-export const LAT = {
+export const LAT: Stop = {
   code: StopCode.LAT,
   nameZh: '藍田',
   nameEn: 'Lam Tin',
@@ -675,7 +683,7 @@ export const LAT = {
   textColor: '#000000',
 }
 
-export const KWT = {
+export const KWT: Stop = {
   code: StopCode.KWT,
   nameZh: '觀塘',
   nameEn: 'Kwun Tong',
@@ -683,7 +691,7 @@ export const KWT = {
   textColor: '#000000',
 }
 
-export const NTK = {
+export const NTK: Stop = {
   code: StopCode.NTK,
   nameZh: '牛頭角',
   nameEn: 'Ngau Tau Kok',
@@ -691,7 +699,7 @@ export const NTK = {
   textColor: '#FFFFFF',
 }
 
-export const KOB = {
+export const KOB: Stop = {
   code: StopCode.KOB,
   nameZh: '九龍灣',
   nameEn: 'Kowloon Bay',
@@ -699,7 +707,7 @@ export const KOB = {
   textColor: '#FFFFFF',
 }
 
-export const CHH = {
+export const CHH: Stop = {
   code: StopCode.CHH,
   nameZh: '彩虹',
   nameEn: 'Choi Hung',
@@ -707,7 +715,7 @@ export const CHH = {
   textColor: '#FFFFFF',
 }
 
-export const WTS = {
+export const WTS: Stop = {
   code: StopCode.WTS,
   nameZh: '黃大仙',
   nameEn: 'Wong Tai Sin',
@@ -715,7 +723,7 @@ export const WTS = {
   textColor: '#000000',
 }
 
-export const LOF = {
+export const LOF: Stop = {
   code: StopCode.LOF,
   nameZh: '樂富',
   nameEn: 'Lok Fu',
@@ -723,7 +731,7 @@ export const LOF = {
   textColor: '#000000',
 }
 
-export const SKM = {
+export const SKM: Stop = {
   code: StopCode.SKM,
   nameZh: '石硤尾',
   nameEn: 'Shek Kip Mei',
@@ -731,7 +739,7 @@ export const SKM = {
   textColor: '#FFFFFF',
 }
 
-export const WHA = {
+export const WHA: Stop = {
   code: StopCode.WHA,
   nameZh: '黃埔',
   nameEn: 'Whampo',
@@ -739,7 +747,7 @@ export const WHA = {
   textColor: '#000000',
 }
 
-export const DIS = {
+export const DIS: Stop = {
   code: StopCode.DIS,
   nameZh: '迪士尼',
   nameEn: 'Disneyland Resort',
@@ -747,7 +755,7 @@ export const DIS = {
   textColor: '#D4AF37',
 }
 
-export const CHW = {
+export const CHW: Stop = {
   code: StopCode.CHW,
   nameZh: '柴灣',
   nameEn: 'Chai Wan',
@@ -755,7 +763,7 @@ export const CHW = {
   textColor: '#FFFFFF',
 }
 
-export const HFC = {
+export const HFC: Stop = {
   code: StopCode.HFC,
   nameZh: '杏花邨',
   nameEn: 'Heng Fa Chuen',
@@ -763,7 +771,7 @@ export const HFC = {
   textColor: '#FFFFFF',
 }
 
-export const SKW = {
+export const SKW: Stop = {
   code: StopCode.SKW,
   nameZh: '筲箕灣',
   nameEn: 'Shau Kei Wan',
@@ -771,7 +779,7 @@ export const SKW = {
   textColor: '#FFFFFF',
 }
 
-export const SWH = {
+export const SWH: Stop = {
   code: StopCode.SWH,
   nameZh: '西灣河',
   nameEn: 'Sai Wan Ho',
@@ -779,7 +787,7 @@ export const SWH = {
   textColor: '#000000',
 }
 
-export const TAK = {
+export const TAK: Stop = {
   code: StopCode.TAK,
   nameZh: '太古',
   nameEn: 'Tai Koo',
@@ -787,7 +795,7 @@ export const TAK = {
   textColor: '#FFFFFF',
 }
 
-export const FOH = {
+export const FOH: Stop = {
   code: StopCode.FOH,
   nameZh: '炮台山',
   nameEn: 'Fortress Hill',
@@ -795,7 +803,7 @@ export const FOH = {
   textColor: '#FFFFFF',
 }
 
-export const TIH = {
+export const TIH: Stop = {
   code: StopCode.TIH,
   nameZh: '天后',
   nameEn: 'Tin Hau',
@@ -803,7 +811,7 @@ export const TIH = {
   textColor: '#000000',
 }
 
-export const CAB = {
+export const CAB: Stop = {
   code: StopCode.CAB,
   nameZh: '銅鑼灣',
   nameEn: 'Causeway Bay',
@@ -811,7 +819,7 @@ export const CAB = {
   textColor: '#000000',
 }
 
-export const WAC = {
+export const WAC: Stop = {
   code: StopCode.WAC,
   nameZh: '灣仔',
   nameEn: 'Wan Chai',
@@ -819,7 +827,7 @@ export const WAC = {
   textColor: '#000000',
 }
 
-export const SHW = {
+export const SHW: Stop = {
   code: StopCode.SHW,
   nameZh: '上環',
   nameEn: 'Sheung Wan',
@@ -827,7 +835,7 @@ export const SHW = {
   textColor: '#6B4513',
 }
 
-export const SYP = {
+export const SYP: Stop = {
   code: StopCode.SYP,
   nameZh: '西營盤',
   nameEn: 'Sai Ying Pun',
@@ -835,7 +843,7 @@ export const SYP = {
   textColor: '#000000',
 }
 
-export const HKU = {
+export const HKU: Stop = {
   code: StopCode.HKU,
   nameZh: '香港大學',
   nameEn: 'HKU',
@@ -843,7 +851,7 @@ export const HKU = {
   textColor: '#000000',
 }
 
-export const KET = {
+export const KET: Stop = {
   code: StopCode.KET,
   nameZh: '堅尼地城',
   nameEn: 'Kennedy Town',
@@ -851,7 +859,7 @@ export const KET = {
   textColor: '#000000',
 }
 
-export const OCP = {
+export const OCP: Stop = {
   code: StopCode.OCP,
   nameZh: '海洋公園',
   nameEn: 'Ocean Park',
@@ -859,7 +867,7 @@ export const OCP = {
   textColor: '#FFFFFF',
 }
 
-export const WCH = {
+export const WCH: Stop = {
   code: StopCode.WCH,
   nameZh: '黃竹坑',
   nameEn: 'Wong Chuk Hang',
@@ -867,7 +875,7 @@ export const WCH = {
   textColor: '#000000',
 }
 
-export const LET = {
+export const LET: Stop = {
   code: StopCode.LET,
   nameZh: '利東',
   nameEn: 'Lei Tung',
@@ -875,7 +883,7 @@ export const LET = {
   textColor: '#FFFFFF',
 }
 
-export const SOH = {
+export const SOH: Stop = {
   code: StopCode.SOH,
   nameZh: '海怡半島',
   nameEn: 'South Horizons',
@@ -883,7 +891,7 @@ export const SOH = {
   textColor: '#FFFFFF',
 }
 
-export const stops = [
+export const stopMap: { [key in StopCode]: Stop } = {
   TUM,
   SIH,
   TIS,
@@ -982,4 +990,6 @@ export const stops = [
   WCH,
   LET,
   SOH,
-]
+}
+
+export const stops = Object.values(stopMap)
