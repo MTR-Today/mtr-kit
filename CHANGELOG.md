@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/MTR-Today/mtr-kit/compare/v1.10.0...v1.11.0) (2023-06-29)
+
+
+### Features
+
+* open data api ([c56c155](https://github.com/MTR-Today/mtr-kit/commit/c56c155646fa4035af045fe40602396ad5c0a696))
+
 ## [1.10.0](https://github.com/MTR-Today/mtr-kit/compare/v1.9.1...v1.10.0) (2023-06-27)
 
 
