@@ -742,7 +742,7 @@ export const SKM: Stop = {
 export const WHA: Stop = {
   code: StopCode.WHA,
   nameZh: '黃埔',
-  nameEn: 'Whampo',
+  nameEn: 'Whampoa',
   color: '#AECFF0',
   textColor: '#000000',
 }
