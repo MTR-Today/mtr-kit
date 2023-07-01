@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/MTR-Today/mtr-kit/compare/v1.11.0...v1.11.1) (2023-07-01)
+
+
+### Bug Fixes
+
+* stop name typo ([6e9e779](https://github.com/MTR-Today/mtr-kit/commit/6e9e779e553942548d0e41e9d951bdaaa382997a))
+
 ## [1.11.0](https://github.com/MTR-Today/mtr-kit/compare/v1.10.0...v1.11.0) (2023-06-29)
 
 
