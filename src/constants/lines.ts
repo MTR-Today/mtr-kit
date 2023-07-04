@@ -1,17 +1,5 @@
-import { StopCode } from './stop.js'
-
-export enum LineCode {
-  TML = 'TML',
-  EAL = 'EAL',
-  TWL = 'TWL',
-  TCL = 'TCL',
-  TKL = 'TKL',
-  AEL = 'AEL',
-  KTL = 'KTL',
-  DRL = 'DRL',
-  ISL = 'ISL',
-  SIL = 'SIL',
-}
+import { LineCode } from './lineCode.js'
+import { StopCode } from './stopCode.js'
 
 type NonEmptyArray<T> = [T, ...T[]]
 
