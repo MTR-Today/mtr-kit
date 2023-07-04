@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/MTR-Today/mtr-kit/compare/v1.11.1...v1.12.0) (2023-07-04)
+
+
+### Features
+
+* line stop ([abf89c4](https://github.com/MTR-Today/mtr-kit/commit/abf89c4cedcefb338a026342fddc484d82fc990d))
+
 ## [1.11.1](https://github.com/MTR-Today/mtr-kit/compare/v1.11.0...v1.11.1) (2023-07-01)
 
 
