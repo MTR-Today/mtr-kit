@@ -1,5 +1,5 @@
-import { LineCode } from '../../constants/lines.js'
-import { StopCode } from '../../constants/stops.js'
+import { LineCode } from '../../constants/lineCode.js'
+import { StopCode } from '../../constants/stopCode.js'
 import { rtApi } from './apiClient.js'
 
 export type ScheduleItem = {
