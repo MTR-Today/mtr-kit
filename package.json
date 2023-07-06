@@ -16,7 +16,7 @@
     "pre-push": "tsc",
     "test": "tsc",
     "clean-package-json": "pnpm clear-package-json package.json -o package-cleaned.json --fields scripts && mv package-cleaned.json package.json",
-    "lint:js": "eslint src"
+    "lint": "eslint src"
   },
   "files": [
     "dist"
