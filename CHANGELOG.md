@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/MTR-Today/mtr-kit/compare/v1.13.0...v1.13.1) (2023-07-04)
+
+
+### Bug Fixes
+
+* platform key ([0e2d33c](https://github.com/MTR-Today/mtr-kit/commit/0e2d33c025af22950cc638ee8a85a7cb1c2a9243))
+
 ## [1.13.0](https://github.com/MTR-Today/mtr-kit/compare/v1.12.0...v1.13.0) (2023-07-04)
 
 
