@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.2](https://github.com/MTR-Today/mtr-kit/compare/v1.13.1...v1.13.2) (2023-07-06)
+
+
+### Bug Fixes
+
+* extract line base type ([631d275](https://github.com/MTR-Today/mtr-kit/commit/631d2756dd081c335e58fc2492dcda34591eb9f9))
+
 ## [1.13.1](https://github.com/MTR-Today/mtr-kit/compare/v1.13.0...v1.13.1) (2023-07-04)
 
 
