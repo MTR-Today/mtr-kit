@@ -12,11 +12,14 @@ export type LineStop = {
   down: LineStopDirection
 }
 
-export type Line = {
+export type LineBase = {
   line: LineCode
   nameEn: string
   nameZh: string
   color: string
+}
+
+export type Line = LineBase & {
   stops: LineStop[]
 }
 
