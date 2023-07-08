@@ -1,11 +1,10 @@
-import { parse } from 'csv-parse/sync'
+import Papa from 'papaparse'
 
-export const parseCsv = (input: string) =>
-  parse(input, {
-    columns: true,
-    cast: value => {
+export const parseCsv = <T>(input: string) =>
+  Papa.parse<T>(input, {
+    header: true,
+    transform: value => {
       const casted = Number(value)
       return isNaN(casted) ? value : casted
     },
-    trim: true,
   })

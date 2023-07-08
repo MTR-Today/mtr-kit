@@ -21,7 +21,7 @@ export type MtrFare = {
 
 const listMtrFares = async (): Promise<MtrFare[]> => {
   const csv = await openDataApi.url('/data/mtr_lines_fares.csv').get().text()
-  return parseCsv(csv)
+  return parseCsv<MtrFare>(csv).data
 }
 
 export type AirportExpressFare = {
@@ -41,7 +41,7 @@ const listAirportExpressFares = async (): Promise<AirportExpressFare[]> => {
     .get()
     .text()
 
-  return parseCsv(csv)
+  return parseCsv<AirportExpressFare>(csv).data
 }
 
 export const fareApi = { listMtrFares, listAirportExpressFares }
