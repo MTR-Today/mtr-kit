@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.4](https://github.com/MTR-Today/mtr-kit/compare/v1.13.3...v1.13.4) (2023-07-08)
+
+
+### Bug Fixes
+
+* use browser competiable csv parser ([5e04544](https://github.com/MTR-Today/mtr-kit/commit/5e045448a3368d17e8b566ff0ae28995e0dde237))
+
 ## [1.13.3](https://github.com/MTR-Today/mtr-kit/compare/v1.13.2...v1.13.3) (2023-07-08)
 
 
