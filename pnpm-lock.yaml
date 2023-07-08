@@ -23,7 +23,7 @@ devDependencies:
     specifier: 15.0.0
     version: 15.0.0(eslint@8.44.0)(typescript@5.1.6)
   '@types/papaparse':
-    specifier: ^5.3.7
+    specifier: 5.3.7
     version: 5.3.7
   '@typescript-eslint/eslint-plugin':
     specifier: 5.61.0
