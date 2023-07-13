@@ -9,7 +9,7 @@ Constants and utils for [MTR HK](https://www.mtr.com.hk/)
 
 ![GitHub CI](https://github.com/MTR-Today/mtr-kit/actions/workflows/runTest.yml/badge.svg) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![npm type definitions](https://img.shields.io/npm/types/typescript.svg)](https://www.typescriptlang.org/)
 
-[Usage](#-usage) | [Development](%EF%B8%8F-development) | [Contributing](#-contributing)
+[Usage](#-usage) | [Development](#%EF%B8%8F-development) | [Contributing](#-contributing)
 
 </div>
 
