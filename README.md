@@ -193,7 +193,7 @@ pnpm run test
 ### Build
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 ## 🤝 Contributing
