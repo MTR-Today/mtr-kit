@@ -50,7 +50,7 @@
     "import-sort-style-module": "6.0.0",
     "lint-staged": "13.2.3",
     "prettier": "3.0.1",
-    "rollup": "3.27.0",
+    "rollup": "3.27.1",
     "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-dts": "5.3.1",
     "rollup-plugin-esbuild": "5.0.0",
