@@ -34,7 +34,7 @@
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "@spotify/eslint-config": "15.0.0",
-    "@types/papaparse": "5.3.7",
+    "@types/papaparse": "5.3.8",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@typescript-eslint/parser": "6.4.1",
     "clean-publish": "4.2.0",

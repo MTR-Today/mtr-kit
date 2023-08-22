@@ -23,8 +23,8 @@ devDependencies:
     specifier: 15.0.0
     version: 15.0.0(eslint@8.47.0)(typescript@5.1.6)
   '@types/papaparse':
-    specifier: 5.3.7
-    version: 5.3.7
+    specifier: 5.3.8
+    version: 5.3.8
   '@typescript-eslint/eslint-plugin':
     specifier: 6.4.1
     version: 6.4.1(@typescript-eslint/parser@6.4.1)(eslint@8.47.0)(typescript@5.1.6)
@@ -976,14 +976,14 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.2.5
+      '@types/node': 20.4.7
     dev: true
 
   /@types/glob@8.1.0:
     resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.2.5
+      '@types/node': 20.4.7
     dev: true
 
   /@types/json-schema@7.0.12:
@@ -1002,10 +1002,6 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node@20.2.5:
-    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
-    dev: true
-
   /@types/node@20.4.7:
     resolution: {integrity: sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==}
     dev: true
@@ -1014,10 +1010,10 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/papaparse@5.3.7:
-    resolution: {integrity: sha512-f2HKmlnPdCvS0WI33WtCs5GD7X1cxzzS/aduaxSu3I7TbhWlENjSPs6z5TaB9K0J+BH1jbmqTaM+ja5puis4wg==}
+  /@types/papaparse@5.3.8:
+    resolution: {integrity: sha512-ArKIEOOWULbhi53wkAiRy1ze4wvrTfhpAj7Yfzva+EkmX2sV8PpFB+xqzJfzXNzK4me95FJH9QZt5NXFVGzOoQ==}
     dependencies:
-      '@types/node': 20.2.5
+      '@types/node': 20.4.7
     dev: true
 
   /@types/semver@7.5.0:
