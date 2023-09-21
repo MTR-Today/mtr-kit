@@ -80,8 +80,8 @@ devDependencies:
     specifier: 6.0.2
     version: 6.0.2(rollup@3.29.2)(typescript@5.2.2)
   rollup-plugin-esbuild:
-    specifier: 6.0.0
-    version: 6.0.0(esbuild@0.19.3)(rollup@3.29.2)
+    specifier: 6.0.1
+    version: 6.0.1(esbuild@0.19.3)(rollup@3.29.2)
   rollup-plugin-peer-deps-external:
     specifier: 2.2.4
     version: 2.2.4(rollup@3.29.2)
@@ -5066,8 +5066,8 @@ packages:
       '@babel/code-frame': 7.22.13
     dev: true
 
-  /rollup-plugin-esbuild@6.0.0(esbuild@0.19.3)(rollup@3.29.2):
-    resolution: {integrity: sha512-I4QN5DV8l0+Sb2fFhfBeEM/o0V4Rzxel0I0oxi7J2Jd3ehwWnhUXMPyc1++/lsRMmxrmOcgYtYPwvey1NzwaTA==}
+  /rollup-plugin-esbuild@6.0.1(esbuild@0.19.3)(rollup@3.29.2):
+    resolution: {integrity: sha512-g9QGfRhvcsFDyzn3rhPD0/x/MFjD2TI+u6eDK9rjN6dxNok5kGXKdZr6g63VZOOL1kE0mvdaCC5cwYB/kTaRkA==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
       esbuild: '>=0.18.0'
