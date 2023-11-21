@@ -23,8 +23,8 @@ devDependencies:
     specifier: 15.0.0
     version: 15.0.0(eslint@8.54.0)(typescript@5.3.2)
   '@types/papaparse':
-    specifier: 5.3.11
-    version: 5.3.11
+    specifier: 5.3.12
+    version: 5.3.12
   '@typescript-eslint/eslint-plugin':
     specifier: 6.12.0
     version: 6.12.0(@typescript-eslint/parser@6.12.0)(eslint@8.54.0)(typescript@5.3.2)
@@ -1074,8 +1074,8 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/papaparse@5.3.11:
-    resolution: {integrity: sha512-ISil0lMkpRDrBTKRPnUgVb5IqxWwj19gWBrX/ROk3pbkkslBN3URa713r/BSfAUj+w9gTPg3S3f45aMToVfh1w==}
+  /@types/papaparse@5.3.12:
+    resolution: {integrity: sha512-b6tFvGgpY6zUjflrhhyFjNCN/okylDH/DKqAuYX2xqzK004H4CoEvnFyfT0ijiC/9h+dCUQYWS1Vl1mliLuMJA==}
     dependencies:
       '@types/node': 20.5.1
     dev: true
