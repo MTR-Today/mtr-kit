@@ -80,8 +80,8 @@ devDependencies:
     specifier: 6.1.0
     version: 6.1.0(rollup@4.9.6)(typescript@5.3.3)
   rollup-plugin-esbuild:
-    specifier: 6.1.0
-    version: 6.1.0(esbuild@0.19.12)(rollup@4.9.6)
+    specifier: 6.1.1
+    version: 6.1.1(esbuild@0.19.12)(rollup@4.9.6)
   rollup-plugin-peer-deps-external:
     specifier: 2.2.4
     version: 2.2.4(rollup@4.9.6)
@@ -892,7 +892,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
       rollup: 4.9.6
@@ -1082,10 +1082,6 @@ packages:
       '@types/glob': 8.1.0
       glob: 8.1.0
       read-pkg-up: 7.0.1
-    dev: true
-
-  /@types/estree@1.0.1:
-    resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
     dev: true
 
   /@types/estree@1.0.5:
@@ -5251,8 +5247,8 @@ packages:
       '@babel/code-frame': 7.22.13
     dev: true
 
-  /rollup-plugin-esbuild@6.1.0(esbuild@0.19.12)(rollup@4.9.6):
-    resolution: {integrity: sha512-HPpXU65V8bSpW8eSYPahtUJaJHmbxJGybuf/M8B3bz/6i11YaYHlNNJIQ38gSEV0FyohQOgVxJ2YMEEZtEmwvA==}
+  /rollup-plugin-esbuild@6.1.1(esbuild@0.19.12)(rollup@4.9.6):
+    resolution: {integrity: sha512-CehMY9FAqJD5OUaE/Mi1r5z0kNeYxItmRO2zG4Qnv2qWKF09J2lTy5GUzjJR354ZPrLkCj4fiBN41lo8PzBUhw==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
       esbuild: '>=0.18.0'
