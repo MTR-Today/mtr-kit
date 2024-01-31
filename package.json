@@ -10,8 +10,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "postinstall": "husky install",
-    "prepare": "husky install",
+    "prepare": "husky",
     "pre-commit": "pnpm lint-staged",
     "pre-push": "tsc",
     "test": "tsc",
@@ -43,7 +42,7 @@
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-prettier": "5.0.1",
-    "husky": "8.0.3",
+    "husky": "9.0.3",
     "import-sort-cli": "6.0.0",
     "import-sort-parser-babylon": "6.0.0",
     "import-sort-parser-typescript": "6.0.0",
