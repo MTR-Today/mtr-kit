@@ -31,7 +31,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "19.1.0",
+    "@commitlint/cli": "19.2.0",
     "@commitlint/config-conventional": "19.1.0",
     "@spotify/eslint-config": "15.0.0",
     "@types/papaparse": "5.3.14",
