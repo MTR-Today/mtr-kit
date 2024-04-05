@@ -37,7 +37,7 @@
     "@types/papaparse": "5.3.14",
     "@typescript-eslint/eslint-plugin": "7.5.0",
     "@typescript-eslint/parser": "7.5.0",
-    "clean-publish": "4.3.0",
+    "clean-publish": "4.4.0",
     "esbuild": "0.20.2",
     "eslint": "8.57.0",
     "eslint-plugin-fp": "2.3.0",
