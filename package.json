@@ -39,7 +39,7 @@
     "@typescript-eslint/parser": "7.8.0",
     "clean-publish": "4.4.0",
     "esbuild": "0.21.1",
-    "eslint": "8.57.0",
+    "eslint": "9.2.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-prettier": "5.1.3",
