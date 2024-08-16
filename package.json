@@ -38,7 +38,7 @@
     "@typescript-eslint/eslint-plugin": "8.1.0",
     "@typescript-eslint/parser": "8.1.0",
     "clean-publish": "5.0.0",
-    "esbuild": "0.23.0",
+    "esbuild": "0.23.1",
     "eslint": "8.57.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-import": "2.29.1",
