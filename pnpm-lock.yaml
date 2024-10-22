@@ -32,8 +32,8 @@ devDependencies:
     specifier: 8.11.0
     version: 8.11.0(eslint@8.57.1)(typescript@5.6.3)
   clean-publish:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.1.0
+    version: 5.1.0
   esbuild:
     specifier: 0.24.0
     version: 0.24.0
@@ -1893,15 +1893,15 @@ packages:
       static-extend: 0.1.2
     dev: true
 
-  /clean-publish@5.0.0:
-    resolution: {integrity: sha512-1qjtqP3piZL4t8SqGojOyA12bg8AtbFPIQstNvxmss1fhwfma3CqMJ/Y/kbRvAllLX2/c4ZKjcCCKDqEtpcymA==}
+  /clean-publish@5.1.0:
+    resolution: {integrity: sha512-Gbz8x7sL/sn0j+2B+yYEumD17WmPT6pHLN+A5nhcd0Sdh86EYblQleU+dUIICXVFalFMFBdW2aGynrVJ6k1u4Q==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
       fast-glob: 3.3.2
-      lilconfig: 3.1.1
-      micromatch: 4.0.7
+      lilconfig: 3.1.2
+      micromatch: 4.0.8
     dev: true
 
   /clean-stack@2.2.0:
@@ -3050,7 +3050,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
     dev: true
 
   /fast-json-stable-stringify@2.1.0:
@@ -4180,11 +4180,6 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lilconfig@3.1.1:
-    resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
-    engines: {node: '>=14'}
-    dev: true
-
   /lilconfig@3.1.2:
     resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
     engines: {node: '>=14'}
@@ -4400,14 +4395,6 @@ packages:
       to-regex: 3.0.2
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /micromatch@4.0.7:
-    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
-    engines: {node: '>=8.6'}
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
     dev: true
 
   /micromatch@4.0.8:
