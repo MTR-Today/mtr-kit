@@ -5,13 +5,10 @@
   "author": "marklai1998 <marklai1998@gmail.com>",
   "license": "MIT",
   "type": "module",
-  "engines": {
-    "node": "<23.0.0"
-  },
   "scripts": {
     "build": "rollup -c",
     "postinstall": "husky install",
-    "prepare": "husky install",
+    "prepare": "husky",
     "pre-commit": "pnpm lint-staged",
     "pre-push": "tsc",
     "test": "tsc",
