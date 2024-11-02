@@ -3,3 +3,4 @@ coverage
 stats.html
 dist
 junit.xml
+.idea
