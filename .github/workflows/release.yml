@@ -22,8 +22,6 @@ jobs:
         name: Install pnpm
       - uses: googleapis/release-please-action@v4
         id: release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-type: node
       - run: pnpm install --frozen-lockfile
