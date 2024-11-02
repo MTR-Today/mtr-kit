@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "papaparse": "^5.4.1",
-    "wretch": "^2.6.0"
+    "wretch": "^2.11.0"
   },
   "packageManager": "pnpm@9.12.3"
 }
