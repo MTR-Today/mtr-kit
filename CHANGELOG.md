@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.0.0 (2024-11-02)
+
+
+### Features
+
+* line stop ([abf89c4](https://github.com/MTR-Today/mtr-kit/commit/abf89c4cedcefb338a026342fddc484d82fc990d))
+* open data api ([c56c155](https://github.com/MTR-Today/mtr-kit/commit/c56c155646fa4035af045fe40602396ad5c0a696))
+* update code key ([1ee2080](https://github.com/MTR-Today/mtr-kit/commit/1ee2080d3b5c46e0d5e2fba3f651fdf8f5dd97d5))
+
+
+### Bug Fixes
+
+* csv parse ([728a229](https://github.com/MTR-Today/mtr-kit/commit/728a2296b0935ec57db9623dd4c0bc784c7e7358))
+* extract line base type ([631d275](https://github.com/MTR-Today/mtr-kit/commit/631d2756dd081c335e58fc2492dcda34591eb9f9))
+* move csv to peer dep ([2cfaf6f](https://github.com/MTR-Today/mtr-kit/commit/2cfaf6ffdb579b11dd2f6b2b005257779a1aac4e))
+* move csv to peer dep ([8330b80](https://github.com/MTR-Today/mtr-kit/commit/8330b80611a61d4d6c8da1491cf2e68b8068d3a1))
+* move csv to peer dep ([dcffa39](https://github.com/MTR-Today/mtr-kit/commit/dcffa397ab663c27e033df680801d755ca028868))
+* platform key ([0e2d33c](https://github.com/MTR-Today/mtr-kit/commit/0e2d33c025af22950cc638ee8a85a7cb1c2a9243))
+* stop name typo ([6e9e779](https://github.com/MTR-Today/mtr-kit/commit/6e9e779e553942548d0e41e9d951bdaaa382997a))
+* use browser competiable csv parser ([5e04544](https://github.com/MTR-Today/mtr-kit/commit/5e045448a3368d17e8b566ff0ae28995e0dde237))
+
 ## [1.13.5](https://github.com/MTR-Today/mtr-kit/compare/v1.13.4...v1.13.5) (2023-07-08)
 
 
