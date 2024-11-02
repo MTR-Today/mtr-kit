@@ -24,6 +24,7 @@ jobs:
         id: release
         with:
           release-type: node
+          release-as: 1.13.6
       - run: pnpm install --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm build
