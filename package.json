@@ -5,6 +5,9 @@
   "author": "marklai1998 <marklai1998@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepare": "husky",
