@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2024-11-02)
+
+
+### Bug Fixes
+
+* try fix release ([aa4876a](https://github.com/MTR-Today/mtr-kit/commit/aa4876a74a08b11c2fc9e34cb0f9d8fb7b0fa0f7))
+
 ## [1.13.5](https://github.com/MTR-Today/mtr-kit/compare/v1.13.4...v1.13.5) (2023-07-08)
 
 
