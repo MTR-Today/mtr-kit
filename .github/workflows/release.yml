@@ -20,12 +20,11 @@ jobs:
           node-version-file: '.node-version'
       - uses: pnpm/action-setup@v4
         name: Install pnpm
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v3
         id: release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-type: node
+          last-release-sha: 9eea663cd42bd4d0181cb0f4fd12a46b036bd9bf
       - run: pnpm install --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm build
