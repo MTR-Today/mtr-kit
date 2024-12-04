@@ -48,7 +48,7 @@
     "import-sort-parser-typescript": "6.0.0",
     "import-sort-style-module": "6.0.0",
     "lint-staged": "15.2.10",
-    "prettier": "3.4.1",
+    "prettier": "3.4.2",
     "rollup": "4.28.0",
     "rollup-plugin-delete": "2.1.0",
     "rollup-plugin-dts": "6.1.1",
