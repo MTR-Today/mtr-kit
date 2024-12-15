@@ -30,7 +30,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "19.6.0",
+    "@commitlint/cli": "19.6.1",
     "@commitlint/config-conventional": "19.6.0",
     "@spotify/eslint-config": "15.0.0",
     "@types/papaparse": "5.3.15",
