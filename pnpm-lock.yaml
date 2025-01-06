@@ -88,8 +88,8 @@ importers:
         specifier: 2.2.4
         version: 2.2.4(rollup@4.30.0)
       rollup-plugin-visualizer:
-        specifier: 5.13.1
-        version: 5.13.1(rollup@4.30.0)
+        specifier: 5.14.0
+        version: 5.14.0(rollup@4.30.0)
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -2784,8 +2784,8 @@ packages:
     peerDependencies:
       rollup: '*'
 
-  rollup-plugin-visualizer@5.13.1:
-    resolution: {integrity: sha512-vMg8i6BprL8aFm9DKvL2c8AwS8324EgymYQo9o6E26wgVvwMhsJxS37aNL6ZsU7X9iAcMYwdME7gItLfG5fwJg==}
+  rollup-plugin-visualizer@5.14.0:
+    resolution: {integrity: sha512-VlDXneTDaKsHIw8yzJAFWtrzguoJ/LnQ+lMpoVfYJ3jJF4Ihe5oYLAqLklIK/35lgUY+1yEzCkHyZ1j4A5w5fA==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -6214,7 +6214,7 @@ snapshots:
     dependencies:
       rollup: 4.30.0
 
-  rollup-plugin-visualizer@5.13.1(rollup@4.30.0):
+  rollup-plugin-visualizer@5.14.0(rollup@4.30.0):
     dependencies:
       open: 8.4.2
       picomatch: 4.0.2
