@@ -47,7 +47,7 @@
     "import-sort-parser-babylon": "6.0.0",
     "import-sort-parser-typescript": "6.0.0",
     "import-sort-style-module": "6.0.0",
-    "lint-staged": "15.4.2",
+    "lint-staged": "15.4.3",
     "prettier": "3.4.2",
     "rollup": "4.32.0",
     "rollup-plugin-delete": "2.1.0",
