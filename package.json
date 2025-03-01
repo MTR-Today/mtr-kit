@@ -50,7 +50,7 @@
     "lint-staged": "15.4.3",
     "prettier": "3.5.2",
     "rollup": "4.34.9",
-    "rollup-plugin-delete": "2.2.0",
+    "rollup-plugin-delete": "3.0.0",
     "rollup-plugin-dts": "6.1.1",
     "rollup-plugin-esbuild": "6.2.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
