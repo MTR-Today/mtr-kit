@@ -29,12 +29,12 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "19.7.1",
-    "@commitlint/config-conventional": "19.7.1",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
     "@spotify/eslint-config": "15.0.0",
     "@types/papaparse": "5.3.15",
-    "@typescript-eslint/eslint-plugin": "8.25.0",
-    "@typescript-eslint/parser": "8.25.0",
+    "@typescript-eslint/eslint-plugin": "8.26.1",
+    "@typescript-eslint/parser": "8.26.1",
     "eslint": "8.57.1",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-import": "2.31.0",
@@ -44,10 +44,10 @@
     "import-sort-parser-babylon": "6.0.0",
     "import-sort-parser-typescript": "6.0.0",
     "import-sort-style-module": "6.0.0",
-    "lint-staged": "15.4.3",
-    "prettier": "3.5.2",
-    "rollup": "4.34.9",
-    "rollup-plugin-delete": "3.0.0",
+    "lint-staged": "15.5.0",
+    "prettier": "3.5.3",
+    "rollup": "4.35.0",
+    "rollup-plugin-delete": "3.0.1",
     "rollup-plugin-dts": "6.1.1",
     "rollup-plugin-esbuild": "6.2.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
@@ -58,5 +58,5 @@
     "papaparse": "^5.4.1",
     "wretch": "^2.11.0"
   },
-  "packageManager": "pnpm@9.15.6"
+  "packageManager": "pnpm@10.6.3"
 }
