@@ -58,5 +58,5 @@
     "papaparse": "^5.4.1",
     "wretch": "^2.11.0"
   },
-  "packageManager": "pnpm@10.6.3"
+  "packageManager": "pnpm@10.6.4"
 }
