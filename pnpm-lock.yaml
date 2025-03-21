@@ -73,8 +73,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1(rollup@4.36.0)
       rollup-plugin-dts:
-        specifier: 6.2.0
-        version: 6.2.0(rollup@4.36.0)(typescript@5.8.2)
+        specifier: 6.2.1
+        version: 6.2.1(rollup@4.36.0)(typescript@5.8.2)
       rollup-plugin-esbuild:
         specifier: 6.2.1
         version: 6.2.1(esbuild@0.25.1)(rollup@4.36.0)
@@ -2739,8 +2739,8 @@ packages:
     peerDependencies:
       rollup: '*'
 
-  rollup-plugin-dts@6.2.0:
-    resolution: {integrity: sha512-iciY+z46mUbN5nCxtJqVynwgrZZljM8of6k8Rg5rVAmu4VHDxexFPgoCa2wrJG5mMsHSGrJmjQPCM4vD0Oe3Lg==}
+  rollup-plugin-dts@6.2.1:
+    resolution: {integrity: sha512-sR3CxYUl7i2CHa0O7bA45mCrgADyAQ0tVtGSqi3yvH28M+eg1+g5d7kQ9hLvEz5dorK3XVsH5L2jwHLQf72DzA==}
     engines: {node: '>=16'}
     peerDependencies:
       rollup: ^3.29.4 || ^4
@@ -6149,7 +6149,7 @@ snapshots:
       del: 8.0.0
       rollup: 4.36.0
 
-  rollup-plugin-dts@6.2.0(rollup@4.36.0)(typescript@5.8.2):
+  rollup-plugin-dts@6.2.1(rollup@4.36.0)(typescript@5.8.2):
     dependencies:
       magic-string: 0.30.17
       rollup: 4.36.0
