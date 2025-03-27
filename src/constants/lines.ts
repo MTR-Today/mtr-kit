@@ -1,27 +1,27 @@
-import { LineCode } from './lineCode.js'
-import { StopCode } from './stopCode.js'
+import { LineCode } from './lineCode.js';
+import { StopCode } from './stopCode.js';
 
 export type LineStopDirection = {
-  platforms: number[]
-  nextStops: StopCode[]
-}
+  platforms: number[];
+  nextStops: StopCode[];
+};
 
 export type LineStop = {
-  stop: StopCode
-  up: LineStopDirection
-  down: LineStopDirection
-}
+  stop: StopCode;
+  up: LineStopDirection;
+  down: LineStopDirection;
+};
 
 export type LineBase = {
-  line: LineCode
-  nameEn: string
-  nameZh: string
-  color: string
-}
+  line: LineCode;
+  nameEn: string;
+  nameZh: string;
+  color: string;
+};
 
 export type Line = LineBase & {
-  stops: LineStop[]
-}
+  stops: LineStop[];
+};
 
 export const TML: Line = {
   line: LineCode.TML,
@@ -167,7 +167,7 @@ export const TML: Line = {
     },
     // down
   ],
-}
+};
 
 export const EAL: Line = {
   line: LineCode.EAL,
@@ -258,7 +258,7 @@ export const EAL: Line = {
     },
     // down
   ],
-}
+};
 
 export const TWL: Line = {
   line: LineCode.TWL,
@@ -349,7 +349,7 @@ export const TWL: Line = {
     },
     // down
   ],
-}
+};
 
 export const TCL: Line = {
   line: LineCode.TCL,
@@ -400,7 +400,7 @@ export const TCL: Line = {
     },
     // down
   ],
-}
+};
 
 export const TKL: Line = {
   line: LineCode.TKL,
@@ -451,7 +451,7 @@ export const TKL: Line = {
     },
     // down
   ],
-}
+};
 
 export const AEL: Line = {
   line: LineCode.AEL,
@@ -487,7 +487,7 @@ export const AEL: Line = {
     },
     // down
   ],
-}
+};
 
 export const KTL: Line = {
   line: LineCode.KTL,
@@ -583,7 +583,7 @@ export const KTL: Line = {
     },
     // down
   ],
-}
+};
 
 export const DRL: Line = {
   line: LineCode.DRL,
@@ -604,7 +604,7 @@ export const DRL: Line = {
     },
     // down
   ],
-}
+};
 
 export const ISL: Line = {
   line: LineCode.ISL,
@@ -700,7 +700,7 @@ export const ISL: Line = {
     },
     // down
   ],
-}
+};
 
 export const SIL: Line = {
   line: LineCode.SIL,
@@ -736,7 +736,7 @@ export const SIL: Line = {
     },
     // down
   ],
-}
+};
 
 export const lineMap: { [key in LineCode]: Line } = {
   TML,
@@ -749,6 +749,6 @@ export const lineMap: { [key in LineCode]: Line } = {
   DRL,
   ISL,
   SIL,
-}
+};
 
-export const lines = Object.values(lineMap)
+export const lines = Object.values(lineMap);

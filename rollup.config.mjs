@@ -1,20 +1,11 @@
-import del from 'rollup-plugin-delete'
-import dts from 'rollup-plugin-dts'
-import esbuild from 'rollup-plugin-esbuild'
-import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import { visualizer } from 'rollup-plugin-visualizer'
+import dts from 'rollup-plugin-dts';
+import esbuild from 'rollup-plugin-esbuild';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 export default [
   {
     input: 'src/main.ts',
-    plugins: [
-      del({
-        targets: ['./dist/'],
-      }),
-      peerDepsExternal(),
-      esbuild(),
-      visualizer(),
-    ],
+    plugins: [peerDepsExternal(), esbuild()],
     output: [
       {
         file: 'dist/index.js',
@@ -33,4 +24,4 @@ export default [
       },
     ],
   },
-]
+];

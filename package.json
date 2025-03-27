@@ -11,14 +11,10 @@
   "scripts": {
     "build": "rollup -c",
     "prepare": "husky",
-    "pre-commit": "pnpm lint-staged",
-    "pre-push": "tsc",
-    "test": "tsc",
-    "lint": "eslint src"
+    "pre-commit": "pnpm biome check --fix --staged --no-errors-on-unmatched",
+    "pre-push": "tsc"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "sideEffects": false,
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,29 +25,15 @@
     }
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@commitlint/cli": "19.8.0",
     "@commitlint/config-conventional": "19.8.0",
-    "@spotify/eslint-config": "15.0.0",
     "@types/papaparse": "5.3.15",
-    "@typescript-eslint/eslint-plugin": "8.28.0",
-    "@typescript-eslint/parser": "8.28.0",
-    "eslint": "8.57.1",
-    "eslint-plugin-fp": "2.3.0",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-prettier": "5.2.5",
     "husky": "9.1.7",
-    "import-sort-cli": "6.0.0",
-    "import-sort-parser-babylon": "6.0.0",
-    "import-sort-parser-typescript": "6.0.0",
-    "import-sort-style-module": "6.0.0",
-    "lint-staged": "15.5.0",
-    "prettier": "3.5.3",
     "rollup": "4.37.0",
-    "rollup-plugin-delete": "3.0.1",
     "rollup-plugin-dts": "6.2.1",
     "rollup-plugin-esbuild": "6.2.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "rollup-plugin-visualizer": "5.14.0",
     "typescript": "5.8.2"
   },
   "dependencies": {
