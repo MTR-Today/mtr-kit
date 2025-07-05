@@ -9,10 +9,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "rollup -c",
-    "prepare": "husky",
-    "pre-commit": "pnpm biome check --fix --staged --no-errors-on-unmatched",
-    "pre-push": "tsc"
+    "build": "rollup -c"
   },
   "files": [
     "dist"
@@ -30,7 +27,7 @@
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@types/papaparse": "5.3.16",
-    "husky": "9.1.7",
+    "lefthook": "1.11.16",
     "rollup": "4.44.2",
     "rollup-plugin-dts": "6.2.1",
     "rollup-plugin-esbuild": "6.2.1",
