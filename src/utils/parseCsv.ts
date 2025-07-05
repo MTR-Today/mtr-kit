@@ -1,4 +1,4 @@
-import Papa from 'papaparse';
+import Papa from "papaparse";
 
 export const parseCsv = <T>(input: string) =>
   Papa.parse<T>(input, {

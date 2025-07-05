@@ -1,3 +1,3 @@
-import wretch from 'wretch';
+import wretch from "wretch";
 
-export const openDataApi = wretch('https://opendata.mtr.com.hk');
+export const openDataApi = wretch("https://opendata.mtr.com.hk");
