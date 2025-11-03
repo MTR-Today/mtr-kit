@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.13.9](https://github.com/MTR-Today/mtr-kit/compare/v1.13.8...v1.13.9) (2025-11-03)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([b54331d](https://github.com/MTR-Today/mtr-kit/commit/b54331ddeff30f89e90f0fc67f7241d8c729fb07))
+* **deps:** update all dependencies ([7d20dc5](https://github.com/MTR-Today/mtr-kit/commit/7d20dc5d5802ab38113218861e12008d1a2102b0))
+
 ## [1.13.8](https://github.com/MTR-Today/mtr-kit/compare/v1.13.7...v1.13.8) (2025-03-27)
 
 
