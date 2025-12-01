@@ -23,13 +23,13 @@
     }
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.3",
+    "@biomejs/biome": "2.3.8",
     "@commitlint/cli": "20.1.0",
     "@commitlint/config-conventional": "20.0.0",
-    "@types/papaparse": "5.3.16",
-    "lefthook": "2.0.2",
-    "rollup": "4.52.5",
-    "rollup-plugin-dts": "6.2.3",
+    "@types/papaparse": "5.5.0",
+    "lefthook": "2.0.4",
+    "rollup": "4.53.3",
+    "rollup-plugin-dts": "6.3.0",
     "rollup-plugin-esbuild": "6.2.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "typescript": "5.9.3"
@@ -38,5 +38,5 @@
     "papaparse": "^5.4.1",
     "wretch": "^3.0.0"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.24.0"
 }
