@@ -21,9 +21,9 @@ importers:
       '@commitlint/cli':
         specifier: 20.3.1
         version: 20.3.1(@types/node@25.1.0)(typescript@5.9.3)
-      '@commitlint/config-conventional':
-        specifier: 20.3.1
-        version: 20.3.1
+      '@marklai/shared-config-commitlint':
+        specifier: ^1.0.0
+        version: 1.0.0(@commitlint/cli@20.3.1(@types/node@25.1.0)(typescript@5.9.3))
       '@types/papaparse':
         specifier: 5.5.2
         version: 5.5.2
@@ -340,6 +340,12 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+
+  '@marklai/shared-config-commitlint@1.0.0':
+    resolution: {integrity: sha512-z9c8iFPafWLVu2ezkWw7AhwOPu2rU8lFsDMlnGIn7M/TcvTx42gBofmm8CQmSxGSepRKWgLXg9/2F//oeCNhrg==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      '@commitlint/cli': ^20.0.0
 
   '@rollup/rollup-android-arm-eabi@4.57.1':
     resolution: {integrity: sha512-A6ehUVSiSaaliTxai040ZpZ2zTevHYbvu/lDoeAteHI8QnaosIzm4qwtezfRg1jOYaUmnzLX1AOD6Z+UJjtifg==}
@@ -1160,6 +1166,11 @@ snapshots:
     optional: true
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
+
+  '@marklai/shared-config-commitlint@1.0.0(@commitlint/cli@20.3.1(@types/node@25.1.0)(typescript@5.9.3))':
+    dependencies:
+      '@commitlint/cli': 20.3.1(@types/node@25.1.0)(typescript@5.9.3)
+      '@commitlint/config-conventional': 20.3.1
 
   '@rollup/rollup-android-arm-eabi@4.57.1':
     optional: true
