@@ -1,5 +1,5 @@
-import { LineCode } from "./lineCode.js";
-import { StopCode } from "./stopCode.js";
+import { LineCode } from './lineCode.js';
+import { StopCode } from './stopCode.js';
 
 export type LineStopDirection = {
   platforms: number[];
@@ -25,9 +25,9 @@ export type Line = LineBase & {
 
 export const TML: Line = {
   line: LineCode.TML,
-  nameEn: "Tuen Ma Line",
-  nameZh: "屯碼綫",
-  color: "#9a3b26",
+  nameEn: 'Tuen Ma Line',
+  nameZh: '屯碼綫',
+  color: '#9a3b26',
   stops: [
     // up
     {
@@ -171,9 +171,9 @@ export const TML: Line = {
 
 export const EAL: Line = {
   line: LineCode.EAL,
-  nameEn: "East Rail Line",
-  nameZh: "東鐵線",
-  color: "#53b7e8",
+  nameEn: 'East Rail Line',
+  nameZh: '東鐵線',
+  color: '#53b7e8',
   stops: [
     // up
     {
@@ -262,9 +262,9 @@ export const EAL: Line = {
 
 export const TWL: Line = {
   line: LineCode.TWL,
-  nameEn: "Tsuen Wan Line",
-  nameZh: "荃灣綫",
-  color: "#E2231A",
+  nameEn: 'Tsuen Wan Line',
+  nameZh: '荃灣綫',
+  color: '#E2231A',
   stops: [
     // up
     {
@@ -353,9 +353,9 @@ export const TWL: Line = {
 
 export const TCL: Line = {
   line: LineCode.TCL,
-  nameEn: "Tung Chung Line",
-  nameZh: "東涌綫",
-  color: "#fe7f1d",
+  nameEn: 'Tung Chung Line',
+  nameZh: '東涌綫',
+  color: '#fe7f1d',
   stops: [
     // up
     {
@@ -404,9 +404,9 @@ export const TCL: Line = {
 
 export const TKL: Line = {
   line: LineCode.TKL,
-  nameEn: "Tseung Kwan O Line",
-  nameZh: "將軍澳綫",
-  color: "#6b208b",
+  nameEn: 'Tseung Kwan O Line',
+  nameZh: '將軍澳綫',
+  color: '#6b208b',
   stops: [
     // up
     {
@@ -455,9 +455,9 @@ export const TKL: Line = {
 
 export const AEL: Line = {
   line: LineCode.AEL,
-  nameEn: "Airport Express",
-  nameZh: "機場快綫",
-  color: "#1c7670",
+  nameEn: 'Airport Express',
+  nameZh: '機場快綫',
+  color: '#1c7670',
   stops: [
     // up
     {
@@ -491,9 +491,9 @@ export const AEL: Line = {
 
 export const KTL: Line = {
   line: LineCode.KTL,
-  nameEn: "Kwun Tong Line",
-  nameZh: "觀塘綫",
-  color: "#1a9431",
+  nameEn: 'Kwun Tong Line',
+  nameZh: '觀塘綫',
+  color: '#1a9431',
   stops: [
     // up
     {
@@ -587,9 +587,9 @@ export const KTL: Line = {
 
 export const DRL: Line = {
   line: LineCode.DRL,
-  nameEn: "Disneyland Resort Line",
-  nameZh: "迪士尼綫",
-  color: "#f550a6",
+  nameEn: 'Disneyland Resort Line',
+  nameZh: '迪士尼綫',
+  color: '#f550a6',
   stops: [
     // up
     {
@@ -608,9 +608,9 @@ export const DRL: Line = {
 
 export const ISL: Line = {
   line: LineCode.ISL,
-  nameEn: "Island Line",
-  nameZh: "港島綫",
-  color: "#0860a8",
+  nameEn: 'Island Line',
+  nameZh: '港島綫',
+  color: '#0860a8',
   stops: [
     // up
     {
@@ -704,9 +704,9 @@ export const ISL: Line = {
 
 export const SIL: Line = {
   line: LineCode.SIL,
-  nameEn: "South Island Line",
-  nameZh: "南港島綫",
-  color: "#b5bd00",
+  nameEn: 'South Island Line',
+  nameZh: '南港島綫',
+  color: '#b5bd00',
   stops: [
     // up
     {

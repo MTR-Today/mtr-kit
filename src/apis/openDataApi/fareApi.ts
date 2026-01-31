@@ -1,11 +1,11 @@
-import type { Stop } from "../../main.js";
-import { parseCsv } from "../../utils/parseCsv.js";
-import { openDataApi } from "./apiClient.js";
+import type { Stop } from '../../main.js';
+import { parseCsv } from '../../utils/parseCsv.js';
+import { openDataApi } from './apiClient.js';
 
 export type MtrFare = {
-  SRC_STATION_NAME: Stop["nameEn"];
+  SRC_STATION_NAME: Stop['nameEn'];
   SRC_STATION_ID: number;
-  DEST_STATION_NAME: Stop["nameEn"];
+  DEST_STATION_NAME: Stop['nameEn'];
   DEST_STATION_ID: number;
   OCT_ADT_FARE: number; // Octopus Card + Adult
   OCT_STD_FARE: number; // Octopus Card + Student
@@ -20,14 +20,14 @@ export type MtrFare = {
 };
 
 const listMtrFares = async (): Promise<MtrFare[]> => {
-  const csv = await openDataApi.url("/data/mtr_lines_fares.csv").get().text();
+  const csv = await openDataApi.url('/data/mtr_lines_fares.csv').get().text();
   return parseCsv<MtrFare>(csv).data;
 };
 
 export type AirportExpressFare = {
-  ST_FROM: Stop["nameEn"];
+  ST_FROM: Stop['nameEn'];
   ST_FROM_ID: number;
-  ST_TO: Stop["nameEn"];
+  ST_TO: Stop['nameEn'];
   ST_TO_ID: number;
   OCT_ADT_FARE: number; // Octopus Card + Adult
   OCT_CHD_FARE: number; // Octopus Card + Child
@@ -37,7 +37,7 @@ export type AirportExpressFare = {
 
 const listAirportExpressFares = async (): Promise<AirportExpressFare[]> => {
   const csv = await openDataApi
-    .url("/data/airport_express_fares.csv")
+    .url('/data/airport_express_fares.csv')
     .get()
     .text();
 

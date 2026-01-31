@@ -1,6 +1,6 @@
-import type { LineCode } from "../../constants/lineCode.js";
-import type { StopCode } from "../../constants/stopCode.js";
-import { rtApi } from "./apiClient.js";
+import type { LineCode } from '../../constants/lineCode.js';
+import type { StopCode } from '../../constants/stopCode.js';
+import { rtApi } from './apiClient.js';
 
 export type ScheduleItem = {
   seq: string;
@@ -30,7 +30,7 @@ export type Schedule = {
 
 const get = ({ line, stop }: { line: LineCode; stop: StopCode }) =>
   rtApi
-    .url("/transport/mtr/getSchedule.php")
+    .url('/transport/mtr/getSchedule.php')
     .query({ line, sta: stop })
     .get()
     .json<Schedule>();
