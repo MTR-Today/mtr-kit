@@ -30,7 +30,7 @@
     "@marklai/shared-config-typescript": "1.1.0",
     "@types/papaparse": "5.5.2",
     "lefthook": "2.1.4",
-    "rollup": "4.60.0",
+    "rollup": "4.60.1",
     "rollup-plugin-dts": "6.4.1",
     "rollup-plugin-esbuild": "6.2.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
