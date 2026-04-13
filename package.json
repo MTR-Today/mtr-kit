@@ -26,7 +26,7 @@
     "@biomejs/biome": "2.4.11",
     "@commitlint/cli": "20.5.0",
     "@marklai/shared-config-biome": "1.0.0",
-    "@marklai/shared-config-commitlint": "1.0.0",
+    "@marklai/shared-config-commitlint": "1.0.1",
     "@marklai/shared-config-typescript": "1.1.0",
     "@types/papaparse": "5.5.2",
     "lefthook": "2.1.5",
