@@ -23,11 +23,11 @@
     }
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.3",
+    "@biomejs/biome": "2.5.5",
     "@commitlint/cli": "21.2.1",
-    "@marklai/shared-config-biome": "1.0.1",
-    "@marklai/shared-config-commitlint": "1.0.5",
-    "@marklai/shared-config-typescript": "1.1.0",
+    "@marklai/shared-config-biome": "1.0.2",
+    "@marklai/shared-config-commitlint": "1.1.0",
+    "@marklai/shared-config-typescript": "1.1.2",
     "@types/papaparse": "5.5.2",
     "lefthook": "2.1.10",
     "rollup": "4.62.2",
