@@ -1,7 +1,6 @@
-
 <div align="center">
 
-![Banner](docs/banner.png 'Banner')
+![Banner](docs/banner.png "Banner")
 
 # MTR Kit
 
@@ -32,12 +31,15 @@ pnpm i mtr-kit
 API client for Official [Real-time MTR train information](https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data/resource/53ef7ded-4a80-42d9-92a1-6f0d340c5c91)
 
 ```ts
-import { rtApi } from "mtr-kit" // API Client
-import { stopScheduleApi, LineCode } from "mtr-kit" // use the schedule API directly
+import { rtApi } from 'mtr-kit'; // API Client
+import { stopScheduleApi, LineCode } from 'mtr-kit'; // use the schedule API directly
 
-const schedule = await stopScheduleApi.get({ line: LineCode.TML, stop: StopCode.TMU })
+const schedule = await stopScheduleApi.get({
+  line: LineCode.TML,
+  stop: StopCode.TMU,
+});
 
-console.log(schedule)
+console.log(schedule);
 /*
 Output:
 {
@@ -55,7 +57,6 @@ Output:
   isdelay: 'N'
 }
 */
-
 ```
 
 #### Open Data API
@@ -63,12 +64,12 @@ Output:
 API client for [MTR routes, fares and barrier-fee facilities](https://data.gov.hk/en-data/dataset/mtr-data-routes-fares-barrier-free-facilities)
 
 ```ts
-import { openDataApi } from "mtr-kit" // API Client
-import { fareApi, LineCode } from "mtr-kit" // use the fare API directly
+import { openDataApi } from 'mtr-kit'; // API Client
+import { fareApi, LineCode } from 'mtr-kit'; // use the fare API directly
 
-const mtrFares = await fareApi.listMtrFares()
+const mtrFares = await fareApi.listMtrFares();
 
-console.log(mtrFares)
+console.log(mtrFares);
 
 /*
 Output:
@@ -92,8 +93,7 @@ Output:
 ]
 */
 
-const airportExpressFares = await fareApi.listAirportExpressFares()
-
+const airportExpressFares = await fareApi.listAirportExpressFares();
 
 /*
 Output:
@@ -111,8 +111,6 @@ Output:
   ...more
 ]
 */
-
-
 ```
 
 ### Constants
@@ -122,7 +120,7 @@ Output:
 Line code according to the [Real-time MTR train information](https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data/resource/53ef7ded-4a80-42d9-92a1-6f0d340c5c91)
 
 ```ts
-import { LineCode } from "mtr-kit"
+import { LineCode } from 'mtr-kit';
 ```
 
 #### Lines
@@ -131,24 +129,22 @@ Line basic information
 
 ```ts
 type Line = {
-  line: LineCode
-  nameEn: string
-  nameZh: string
-  color: string
+  line: LineCode;
+  nameEn: string;
+  nameZh: string;
+  color: string;
   stops: {
-    stop: StopCode
-    up: LineStopDirection
-    down: LineStopDirection
-  }[]
-}
+    stop: StopCode;
+    up: LineStopDirection;
+    down: LineStopDirection;
+  }[];
+};
 
-import { lines } from "mtr-kit" // Line[]
-import { lineMap } from "mtr-kit" // { [key in LineCode]: Line }
-
+import { lines } from 'mtr-kit'; // Line[]
+import { lineMap } from 'mtr-kit'; // { [key in LineCode]: Line }
 
 // Import line specifically
-import { TML } from "mtr-kit" // Line
-
+import { TML } from 'mtr-kit'; // Line
 ```
 
 #### StopCode
@@ -156,7 +152,7 @@ import { TML } from "mtr-kit" // Line
 Stop code according to the [Real-time MTR train information](https://data.gov.hk/en-data/dataset/mtr-data2-nexttrain-data/resource/53ef7ded-4a80-42d9-92a1-6f0d340c5c91)
 
 ```ts
-import { StopCode } from "mtr-kit"
+import { StopCode } from 'mtr-kit';
 ```
 
 #### Stops
@@ -165,20 +161,18 @@ Stop basic information
 
 ```ts
 type Stop = {
-  stop: StopCode
-  nameEn: string
-  nameZh: string
-  color: string
-  textColor: string
-}
+  stop: StopCode;
+  nameEn: string;
+  nameZh: string;
+  color: string;
+  textColor: string;
+};
 
-import { stops } from "mtr-kit" // Stop[]
-import { stopMap } from "mtr-kit" // { [key in StopCode]: Stop }
-
+import { stops } from 'mtr-kit'; // Stop[]
+import { stopMap } from 'mtr-kit'; // { [key in StopCode]: Stop }
 
 // Import stop specifically
-import { TUM } from "mtr-kit" // Stop
-
+import { TUM } from 'mtr-kit'; // Stop
 ```
 
 ## ⌨️ Development
