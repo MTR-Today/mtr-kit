@@ -875,8 +875,8 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
-  argue-cli@3.2.0:
-    resolution: {integrity: sha512-VipTB0gXgGIFO2Rg9yEVN5wLt2AurJcZqDbgmYSwPwsykhLrQhs240/bfceev4w68lI8JshoOJIk9uW7tFzROw==}
+  argue-cli@3.2.1:
+    resolution: {integrity: sha512-h8QG03KSAympQnbZe0k5h/mnQCCkoKO9rVQ0L+F99+NNTV4vm18Lq70WwIKE0aLN3mM1EUf42l960bl6Dd0jOw==}
     engines: {node: '>=22'}
 
   callsites@3.1.0:
@@ -991,8 +991,8 @@ packages:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
     hasBin: true
 
-  js-tokens@10.0.0:
-    resolution: {integrity: sha512-lM/UBzQmfJRo9ABXbPWemivdCW8V2G8FHaHdypQaIy523snUjog0W71ayWXTjiR+ixeMyVHN2XcpnTd/liPg/Q==}
+  js-tokens@10.0.1:
+    resolution: {integrity: sha512-XMt+uh+yEs6srFvEb/pEe4IMvbtoXVdNxF7lZFU+I9sdWI641L97L+gXQMTGm1x3RjPUVizNVjHueclXr0U7sw==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -1207,7 +1207,7 @@ snapshots:
   '@babel/code-frame@8.0.6':
     dependencies:
       '@babel/helper-validator-identifier': 8.0.6
-      js-tokens: 10.0.0
+      js-tokens: 10.0.1
     optional: true
 
   '@babel/helper-validator-identifier@7.29.7': {}
@@ -1652,7 +1652,7 @@ snapshots:
 
   argparse@2.0.1: {}
 
-  argue-cli@3.2.0: {}
+  argue-cli@3.2.1: {}
 
   callsites@3.1.0: {}
 
@@ -1673,7 +1673,7 @@ snapshots:
   conventional-commits-parser@7.1.4:
     dependencies:
       '@simple-libs/stream-utils': 2.0.0
-      argue-cli: 3.2.0
+      argue-cli: 3.2.1
 
   convert-source-map@2.0.0: {}
 
@@ -1765,7 +1765,7 @@ snapshots:
 
   jiti@2.7.0: {}
 
-  js-tokens@10.0.0:
+  js-tokens@10.0.1:
     optional: true
 
   js-tokens@4.0.0: {}
